@@ -1,6 +1,7 @@
 <template>
 <div class="home">
   <section class="hero is-dark">
+
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
@@ -21,11 +22,11 @@
       </div>
     </div>
   </section>
-
+    <h2 class="subtitle is-3"> Check out our upcoming events    </h2>
   <EventsList />
-
 </div>
 </template>
+
 <script>
 import EventsList from '@/components/EventsList.vue';
 
@@ -61,7 +62,7 @@ export default {
     margin-right: auto;
     width: 100%;
     position: absolute;
-    bottom: 250px;
+    bottom: 450px;
     .button {
       margin-right: 50px;
       padding-left: 50px;

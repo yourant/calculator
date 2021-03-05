@@ -1,33 +1,47 @@
 <template>
-<nav class="navbar container" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <strong class="is-size-4">Modern Rainforest</strong>
-    </a>
 
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div id="navbar" class="navbar-menu">
-    <div class="navbar-start">
-      <router-link to="/" class="navbar-item">Home</router-link>
-      <router-link to="/about" class="navbar-item">About</router-link>
-    </div>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-dark">
-            <strong><router-link to="/login" class="navbar-item">Sign in</router-link></strong>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
+    <v-app-bar
+      absolute
+      color="#43a047"
+      dark
+      shrink-on-scroll
+      dense
+      src="https://i.picsum.photos/id/482/2560/1440.jpg?hmac=FB15e_vNXF-H_-ASr324yxYQVlvkycm26rRTXVGK4R0"
+    >
+
+            <v-app-bar-title to="/">Modern Rainforest</v-app-bar-title>
+
+            <v-spacer></v-spacer>
+
+
+
+    <v-row justify="center" align="center">
+        <v-col cols="3" sm="8" md="4">
+        <v-btn icon>
+        <router-link to="/" class="navbar-item">Home</router-link>
+        </v-btn>
+        </v-col>
+
+        <v-col cols="3" sm="8" md="4">
+        <v-btn icon>
+        <router-link to="/about" class="navbar-item">About</router-link>
+        </v-btn>
+        </v-col>
+
+        <v-col cols="3" sm="8" md="4">
+        <v-btn icon>
+                <strong><router-link to="/login" class="navbar-item">Sign in</router-link></strong>
+        </v-btn>
+        </v-col>
+
+    </v-row>
+
+
+
+
+</v-app-bar>
+
 </template>
 <script>
 export default {
@@ -36,15 +50,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  nav {
-    margin-top: 25px;
-    margin-bottom: 30px;
-    a {
-      font-weight: bold;
-      color: #2c3e50;
-      &.router-link-exact-active {
-        color: #d88d00;
-      }
-    }  
-  } 
+
+
 </style>

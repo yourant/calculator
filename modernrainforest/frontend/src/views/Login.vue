@@ -10,7 +10,6 @@
     <v-container fluid fill-height>
       <v-row justify="center" align="center" >
          <v-col xs="12" sm="8" md="4">
-
           <v-card class="elevation-12">
             <v-toolbar dark color="primary">
               <v-col>
@@ -35,7 +34,6 @@
                 <v-col class="caption text-xs-right"><router-link to="/recover-password">Forgot your password?</router-link></v-col>
 
                 <v-card-actions>
-                  
                   <v-spacer></v-spacer>
                   <v-btn to="/register">Register</v-btn>  
                   <v-btn @click.prevent="submit" color='primary'>Login</v-btn>
