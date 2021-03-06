@@ -1,56 +1,93 @@
 <template>
-  <div class="event-card">
-    <div class="card">
-      <div >
-        <h2 class="is-size-4 has-text-weight-bold">Event name
-        <small >Event date</small>
-        </h2>
-        <span>Event location</span>
+  <v-card
+    :loading="loading"
+    class="mx-auto my-12"
+    max-width="374"
+  >
+    <template slot="progress">
+      <v-progress-linear
+        color="deep-purple"
+        height="10"
+        indeterminate
+      ></v-progress-linear>
+    </template>
+
+    <v-img
+      height="250"
+      src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
+    ></v-img>
+
+    <v-card-title>Cafe Badilico</v-card-title>
+
+    <v-card-text>
+      <v-row
+        align="center"
+        class="mx-0"
+      >
+        <v-rating
+          :value="4.5"
+          color="amber"
+          dense
+          half-increments
+          readonly
+          size="14"
+        ></v-rating>
+
+        <div class="grey--text ml-4">
+          4.5 (413)
+        </div>
+      </v-row>
+
+      <div class="my-4 subtitle-1">
+        $ • Italian, Cafe
       </div>
-    </div>
-  </div>
+
+      <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
+    </v-card-text>
+
+    <v-divider class="mx-4"></v-divider>
+
+    <v-card-title>Tonight's availability</v-card-title>
+
+    <v-card-text>
+      <v-chip-group
+        v-model="selection"
+        active-class="deep-purple accent-4 white--text"
+        column
+      >
+        <v-chip>5:30PM</v-chip>
+
+        <v-chip>7:30PM</v-chip>
+
+        <v-chip>8:00PM</v-chip>
+
+        <v-chip>9:00PM</v-chip>
+      </v-chip-group>
+    </v-card-text>
+
+    <v-card-actions>
+      <v-btn
+        color="deep-purple lighten-2"
+        text
+        @click="reserve"
+      >
+        Reserve
+      </v-btn>
+    </v-card-actions>
+  </v-card>
 </template>
+
 <script>
   export default {
-  }
+    data: () => ({
+      loading: false,
+      selection: 1,
+    }),
+    methods: {
+      reserve() {
+        this.loading = true;
+        setTimeout(() => (this.loading = false), 2000);
+      },
+    },
+  };
 </script>
-<style lang="scss" scoped>
-  .card {
-    background-image: url('https://placekitten.com/400/400');
-    height: 200px;
-    width: 250px;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-  }
-  .card-content {
-    padding-top: 50px;
-    position: absolute;
-    color: #FFF;
-    background-color: rgba(0, 0, 0, 0.35);
-    top: 0;
-    padding: 10px;
-    height: 200px;
-    width: 100px;
-    span {
-      font-size: 18px;
-      text-align: center;
-      width: 100%;
-      position: absolute;
-      bottom: 10px;
-      right: 0;
-    }
-    h2 {
-      margin-top: 10px;
-    }
-  }
-  .event-date {
-    background-color: #151515;
-    color: #FFF;
-    font-size: .75em;
-    padding: 2px 10px;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-</style>

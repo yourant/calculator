@@ -23,15 +23,16 @@
 </template>
 
 
+// <EventCard />
 
 <script>
   import EventCard from '@/components/EventCard';
   export default {
     name: 'EventsList',
     components : {
-      EventCard
-    }
-  }
+      EventCard,
+    },
+  };
 </script>
 <style lang="scss" scoped>
   .events {

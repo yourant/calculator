@@ -1,52 +1,57 @@
 <template>
+<nav>
+
+<v-app-bar flat absolute color="white" elevate-on-scroll scroll-target="#scrolling-techniques-7">
+  <v-app-bar-title class = 'text-uppercase grey--text' to="/">   
+    <span class="font-weight-light">Modern Rainforest</span>
+    <span>Race</span>
+  </v-app-bar-title>
 
 
-    <v-app-bar
-      absolute
-      color="#43a047"
-      dark
-      shrink-on-scroll
-      dense
-      src="https://i.picsum.photos/id/482/2560/1440.jpg?hmac=FB15e_vNXF-H_-ASr324yxYQVlvkycm26rRTXVGK4R0"
-    >
+  <v-spacer></v-spacer>
 
-            <v-app-bar-title to="/">Modern Rainforest</v-app-bar-title>
+  <v-card elevation="1">
+      
+            <v-text-field 
 
-            <v-spacer></v-spacer>
+            hide-details
+            single-line ></v-text-field>
+            
+  </v-card>
 
-
-
-    <v-row justify="center" align="center">
-        <v-col cols="3" sm="8" md="4">
-        <v-btn icon>
-        <router-link to="/" class="navbar-item">Home</router-link>
+      <v-divider class="mx-4" vertical></v-divider>
+        <v-btn to="/">
+            <span>Home</span>
+            <v-icon>home</v-icon>
         </v-btn>
-        </v-col>
 
-        <v-col cols="3" sm="8" md="4">
-        <v-btn icon>
-        <router-link to="/about" class="navbar-item">About</router-link>
+      <v-divider class="mx-4" vertical></v-divider>
+        <v-btn flat to="/about" >             
+            <span> About</span>
+            <v-icon>info</v-icon>
         </v-btn>
-        </v-col>
 
-        <v-col cols="3" sm="8" md="4">
-        <v-btn icon>
-                <strong><router-link to="/login" class="navbar-item">Sign in</router-link></strong>
+      <v-divider class="mx-4" vertical></v-divider>
+        <v-btn flat color="blue darken-2" to="/login">
+                <span><strong>Sign in</strong></span>
+                <v-icon> exit_to_app</v-icon>
         </v-btn>
-        </v-col>
-
-    </v-row>
-
-
-
 
 </v-app-bar>
 
+</nav>
 </template>
+
+
+
+
+
+
+
 <script>
 export default {
-    name: 'Nav'
-}
+    name: 'Nav',
+};
 </script>
 
 <style lang="scss" scoped>

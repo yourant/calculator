@@ -28,7 +28,7 @@
                     <v-card-actions>
                     <v-spacer></v-spacer>
                     <v-btn @click="cancel">Cancel</v-btn>
-                    <v-btn @click.prevent="submit">Submit</v-btn>
+                    <v-btn @click.prevent="submit" color='primary'>Submit</v-btn>
                     </v-card-actions>
                 </v-card-text>
                 </v-card>

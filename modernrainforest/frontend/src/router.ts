@@ -30,8 +30,8 @@ export default new Router({
         {
           path: '/event/:id',
           name: 'eventSingle',
-          component: () => import('./views/EventSingle.vue')
-        },                
+          component: () => import('./views/EventSingle.vue'),
+        },
         {
           path: 'login',
           // route level code-splitting
