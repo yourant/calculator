@@ -35,8 +35,15 @@
 
                 <v-card-actions>
                   <v-spacer></v-spacer>
-                  <v-btn to="/register">Register</v-btn>  
-                  <v-btn @click.prevent="submit" color='primary'>Login</v-btn>
+                  <v-btn class="ma-2" color="orange darken-2" dark to="/register">Register
+                              <v-icon dark left> mdi-arrow-up </v-icon>
+                    </v-btn>
+
+
+
+                  <v-btn @click.prevent="submit" color='primary'> Login
+                  <v-icon dark right > mdi-checkbox-marked-circle </v-icon>
+                  </v-btn>
                 </v-card-actions>
             </v-card-text>
           </v-card>

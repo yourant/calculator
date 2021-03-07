@@ -12,7 +12,6 @@
                 <v-spacer></v-spacer>
                 </v-toolbar>
 
-
                 <v-card-text >
                     <v-form v-model="valid" ref="form" lazy-validation>
                       <v-text-field label="Full Name" v-model="fullName" required></v-text-field>
@@ -27,8 +26,13 @@
                     </v-form>
                     <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn @click="cancel">Cancel</v-btn>
-                    <v-btn @click.prevent="submit" color='primary'>Submit</v-btn>
+                    <v-btn class="ma-2" color="orange darken-2" dark @click="cancel">Cancel
+                      <v-icon dark left> mdi-arrow-left </v-icon>
+                    </v-btn>
+                   
+                    <v-btn @click.prevent="submit" color='primary'>Submit         
+                      <v-icon dark right > mdi-checkbox-marked-circle </v-icon>
+                    </v-btn>
                     </v-card-actions>
                 </v-card-text>
                 </v-card>
@@ -42,7 +46,6 @@
 <script lang="ts">
 
 import {
-
   IUserProfileUpdate,
   IUserProfileRegister,
 } from '@/interfaces';
@@ -79,7 +82,6 @@ export default class Register extends Vue {
       this.$router.push('/login');
     }
   }
-
 }
 
 </script>

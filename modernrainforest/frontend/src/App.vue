@@ -12,7 +12,7 @@
 <template>
   <div id="app">
       <v-app class='grey lighten-4'>
-        <Nav />
+        <Nav> </Nav> 
         <v-content v-if="loggedIn===null">
               <v-container fill-height>
                 <v-row align-center justify-center>
@@ -34,9 +34,10 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import NotificationsManager from './components/NotificationsManager.vue';
+import Nav from './components/partials/Nav.vue';
 import { readIsLoggedIn } from './store/main/getters';
 import { dispatchCheckLoggedIn } from './store/main/actions';
-import Nav from './components/partials/Nav.vue';
+
 
 @Component({
   components: {
