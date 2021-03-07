@@ -9,9 +9,7 @@ import store from '@/store';
 import './registerServiceWorker';
 import 'vuetify/dist/vuetify.min.css';
 import vuetify from './plugins/vuetify';
-
-
-Vue.config.productionTip = false;
+import '@mdi/font/css/materialdesignicons.css'
 
 Vue.config.productionTip = false;
 new Vue({

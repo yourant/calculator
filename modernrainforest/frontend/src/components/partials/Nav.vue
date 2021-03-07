@@ -7,7 +7,7 @@
 .navIcon{
   border: 1px solid #ccc;
   background-color: white;
-  color:white;
+  color:grey;
   padding: 10px;
 }
 .searchbar{
@@ -22,7 +22,8 @@
 <nav>
 
 <v-app-bar flat absolute color="black" elevate-on-scroll scroll-target="#scrolling-techniques-7">
-  
+
+
   <v-app-bar-nav-icon class="navIcon" @click="drawer = !drawer"></v-app-bar-nav-icon>
 
 
