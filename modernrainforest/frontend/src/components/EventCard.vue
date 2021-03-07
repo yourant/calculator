@@ -50,12 +50,8 @@
     <v-card-title>Tonight's availability</v-card-title>
 
     <v-card-text>
-      <v-chip-group
-        v-model="selection"
-        active-class="deep-purple accent-4 white--text"
-        column
-      >
-        <v-chip>5:30PM</v-chip>
+      <v-chip-group v-model="selection" active-class="deep-purple accent-4 white--text"  column >
+        <v-chip>{{products.date}}</v-chip>
 
         <v-chip>7:30PM</v-chip>
 
@@ -77,17 +73,24 @@
   </v-card>
 </template>
 
-<script>
-  export default {
-    data: () => ({
-      loading: false,
-      selection: 1,
-    }),
-    methods: {
-      reserve() {
+
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator';
+import {readProductDetail} from '@/store/main/getters';
+
+@Component
+export default class EventCard extends Vue {
+    @Prop() public readonly product !: object;
+    public loading: boolean = false;
+    public selection: number = 1;
+
+    get loadProductDetail() {
+      return readProductDetail(this.$store);
+    }
+
+    public reserve() {
         this.loading = true;
         setTimeout(() => (this.loading = false), 2000);
-      },
-    },
-  };
+      }
+}
 </script>

@@ -12,6 +12,7 @@ const defaultState: MainState = {
   dashboardMiniDrawer: false,
   dashboardShowDrawer: true,
   notifications: [],
+  productDetail: [],
 };
 
 export const mainModule = {

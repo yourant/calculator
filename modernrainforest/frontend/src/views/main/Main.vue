@@ -82,7 +82,6 @@
     <v-toolbar
         dark
         prominent
-        src="https://picsum.photos/1920/1080"
         color="primary"
         app>
       <v-toolbar-side-icon @click.stop="switchShowDrawer"></v-toolbar-side-icon>

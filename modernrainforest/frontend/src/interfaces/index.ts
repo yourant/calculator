@@ -29,3 +29,15 @@ export interface IUserProfileRegister {
     is_active?: boolean;
 }
 
+export interface IProductDetail {
+    id: number;
+    name: string;
+    category: string;
+    description: string;
+    featuredImage: string;
+    images: [];
+    location: string;
+    date: Date;
+    time: string;
+}
+

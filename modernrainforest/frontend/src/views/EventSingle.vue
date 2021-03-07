@@ -1,3 +1,18 @@
+<style lang="scss" scoped>
+  .event-single {
+    margin-top: 360px;
+  }
+  .hero {
+    margin-bottom: 70px;
+  }
+  .event-images {
+    margin-top: 50px;
+  }
+  .description {
+    margin-bottom: 30px;
+  }
+</style>
+
 <template>
   <div class="event-single">
     <section class="hero is-primary">
@@ -26,22 +41,14 @@
     </section>
   </div>
 </template>
-<script>
-  export default {
-  };
-</script>
 
-<style lang="scss" scoped>
-  .event-single {
-    margin-top: 30px;
+
+
+<script lang ="ts">
+import { Component, Vue } from 'vue-property-decorator';
+
+@Component
+export default class EventSingle extends Vue {
+
   }
-  .hero {
-    margin-bottom: 70px;
-  }
-  .event-images {
-    margin-top: 50px;
-  }
-  .description {
-    margin-bottom: 30px;
-  }
-</style>
+</script>

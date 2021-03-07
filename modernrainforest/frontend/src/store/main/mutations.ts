@@ -1,4 +1,4 @@
-import { IUserProfile } from '@/interfaces';
+import { IProductDetail, IUserProfile } from '@/interfaces';
 import { MainState, AppNotification } from './state';
 import { getStoreAccessors } from 'typesafe-vuex';
 import { State } from '../state';
@@ -28,6 +28,11 @@ export const mutations = {
     setDashboardShowDrawer(state: MainState, payload: boolean) {
         state.dashboardShowDrawer = payload;
     },
+    setProductDetail(state: MainState, payload: IProductDetail) {
+        const products = state.productDetail.filter((product: IProductDetail) => product.id !== payload.id);
+        products.push(payload);
+        state.productDetail = products;
+    },
     addNotification(state: MainState, payload: AppNotification) {
         state.notifications.push(payload);
     },
@@ -45,5 +50,7 @@ export const commitSetLogInError = commit(mutations.setLogInError);
 export const commitSetToken = commit(mutations.setToken);
 export const commitSetNewUser = commit(mutations.setNewUser);
 export const commitSetUserProfile = commit(mutations.setUserProfile);
+export const commitSetProductDetail = commit(mutations.setProductDetail);
 export const commitAddNotification = commit(mutations.addNotification);
 export const commitRemoveNotification = commit(mutations.removeNotification);
+
