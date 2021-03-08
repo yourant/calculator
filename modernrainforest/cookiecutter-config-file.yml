@@ -8,7 +8,7 @@ default_context:
   secret_key: '8b4d65f8bbce6f0f696a9d42829191d3af3d621468fbeddf4442124d17c60185'
   first_superuser: 'raceychan@gmail.com'
   first_superuser_password: '4844159acc'
-  backend_cors_origins: '["http://localhost", "http://localhost:4200", "http://localhost:3000", "http://localhost:8080", "https://localhost", "https://localhost:4200", "https://localhost:3000", "https://localhost:8080", "http://dev.modernrainforest.com", "https://stag.modernrainforest.com", "https://modernrainforest.com", "http://local.dockertoolbox.tiangolo.com", "http://localhost.tiangolo.com"]'
+  backend_cors_origins: '["http://localhost", "http://localhost:4200", "http://localhost:3000", "http://localhost:8080", "https://localhost", "https://localhost:4200", "https://localhost:3000", "https://localhost:8080", "http://dev.modernrainforest.com", "https://stag.modernrainforest.com", "https://modernrainforest.com"]'
   smtp_port: '587'
   smtp_host: ''
   smtp_user: 'raceychan'
