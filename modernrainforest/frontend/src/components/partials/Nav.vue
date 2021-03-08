@@ -37,7 +37,7 @@
     </v-app-bar-title>
   <v-img 
     class="mx-2"
-    src="https://i.imgur.com/qgGY4tB.png"
+    src="https://st3.depositphotos.com/27847728/34695/v/1600/depositphotos_346956532-stock-illustration-initial-letter-logo-design-vector.jpg"
     max-height="40"
     max-width="40"
     contain

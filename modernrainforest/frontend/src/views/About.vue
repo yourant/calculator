@@ -9,7 +9,7 @@
         like separation of front-end and backend, microservices, stateless along the way, </p>
         <p>and that is why you would see the website you are visiting right now.</p>
       <p>The plan I have in mind right now is to build this to be a e-commerce website, mainly selling merchandizes that I have crash on. </p>
-      <p>The website is built under the help of great techniques such as 
+      <p>The website is built under the help of great techniques such as
         Vue,Vuex,Vuetify, Fastapi, Postgresql, Elastic Search, Redis, Traefik, Celery, Pytorch, Docker, Kubernetes and etc.
       </p>
       <p class="org-description is-size-4">Send a message to RaceyChan if you are interested in such field and would like to communicate, or just to say hi ;) </p>

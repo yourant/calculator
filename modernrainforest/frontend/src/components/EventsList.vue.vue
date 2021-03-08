@@ -74,10 +74,6 @@ export default class EventList extends Vue {
         },
   ];
 
-  // public mockProducts() {
-
-  //   commitSetProductDetail(this.$store, products.push(this.products));
-  // }
 }
 
 </script>
