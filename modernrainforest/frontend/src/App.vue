@@ -13,6 +13,8 @@
   <div id="app">
       <v-app class='grey lighten-4'>
         <Nav> </Nav> 
+
+
         <v-content v-if="loggedIn===null">
               <v-container fill-height>
                 <v-row align-center justify-center>

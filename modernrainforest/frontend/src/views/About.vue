@@ -80,11 +80,6 @@
         </v-card-text>
 
 
-
-
-
-
-
         <v-divider></v-divider>
         <v-card-text class="white--text">
         {{ new Date().getFullYear() }} — <strong>Race</strong>
@@ -97,17 +92,17 @@
 
 
 
-<script>
-  export default {
-    data: () => ({
-      icons: [
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+@Component
+
+export default class About extends Vue {
+  public dialog: boolean = false;
+  public icons: object= [
         'mdi-facebook',
         'mdi-twitter',
         'mdi-linkedin',
         'mdi-instagram',
-      ],
-      dialog: false,
-    }
-    ),
-  }
+        ];
+};
 </script>

@@ -20,10 +20,8 @@
 </style>
 
 <template>
-
   <v-container class="home" >
     <section justify="center" align="center">
-
       <v-parallax class="hero" height="720" src="https://i.picsum.photos/id/1063/2560/1440.jpg?hmac=wov80KgofTtCwHrl6JLolFq0EunCYEMKI5zmc2VLCvc">
 
         <div class="text-xs-center">
