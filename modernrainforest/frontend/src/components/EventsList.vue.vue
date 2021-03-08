@@ -2,7 +2,7 @@
   .events {
     margin-top: 10px;
     text-align: center;
-  }
+    }
 </style>
 
 <template>

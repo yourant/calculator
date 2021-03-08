@@ -80,7 +80,7 @@ import {readProductDetail} from '@/store/main/getters';
 
 @Component
 export default class EventCard extends Vue {
-    @Prop() public readonly product !: object;
+
     public loading: boolean = false;
     public selection: number = 1;
 
