@@ -98,11 +98,11 @@ import { Component, Vue } from 'vue-property-decorator';
 
 export default class About extends Vue {
   public dialog: boolean = false;
-  public icons: object= [
+  public icons: object = [
         'mdi-facebook',
         'mdi-twitter',
         'mdi-linkedin',
         'mdi-instagram',
         ];
-};
+}
 </script>
