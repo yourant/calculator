@@ -51,7 +51,7 @@
 
     <v-card-text>
       <v-chip-group v-model="selection" active-class="deep-purple accent-4 white--text"  column >
-        <v-chip>{{products.date}}</v-chip>
+        <v-chip>{{product.date}}</v-chip>
 
         <v-chip>7:30PM</v-chip>
 
@@ -62,11 +62,7 @@
     </v-card-text>
 
     <v-card-actions>
-      <v-btn
-        color="deep-purple lighten-2"
-        text
-        @click="reserve"
-      >
+      <v-btn color="deep-purple lighten-2" text @click="reserve" >
         Reserve
       </v-btn>
     </v-card-actions>
@@ -76,21 +72,16 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import {readProductDetail} from '@/store/main/getters';
 
 @Component
-export default class EventCard extends Vue {
-
-    public loading: boolean = false;
-    public selection: number = 1;
-
-    get loadProductDetail() {
-      return readProductDetail(this.$store);
+export default class ProductCard extends Vue {
+  @Prop(Object) public product!: object;
+  public loading: boolean = false;
+  public selection: number = 1;
+  public reserve() {
+      this.loading = true;
+      setTimeout(() => (this.loading = false), 2000);
     }
-
-    public reserve() {
-        this.loading = true;
-        setTimeout(() => (this.loading = false), 2000);
-      }
 }
+
 </script>

@@ -30,14 +30,19 @@ export interface IUserProfileRegister {
 }
 
 export interface IProductDetail {
-    id: number;
-    name: string;
+    category_id: number;
     category: string;
-    description: string;
-    featuredImage: string;
-    images: [];
-    location: string;
-    date: Date;
-    time: string;
+    asin: string;
+    plink: string;
+    brand: string;
+    price: [];
+    rating: string;
+    ranking: Date;
+    mrevenue: string;
+    msales: number;
+    first_date: Date;
+    dimensions: string;
+    seller_num: number;
+    seller_type: string;
 }
 

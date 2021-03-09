@@ -6,49 +6,45 @@
 </style>
 
 <template>
-
-
- <v-row  justify="center" align="center" >    
-
-  <div class="events container">
+  <div class="products container">
     <h2 class="subtitle is-3">
-    Check out our upcoming events
+      Check out our upcoming products
     </h2>
-
     <div class="columns is-multiline">
+ 
       <div v-for="product in products" :product="product" :key="product.id" class="column is-one-quarter">
-        <router-link :to="'/event/' + product.id">
-          <EventCard :product="product" />
+        <router-link :to="'/product/' + product.id">
+          <ProductCard  :product="product" />
         </router-link>
       </div>
-    </div>
-  </div>
-</v-row> 
 
+    </div>
+  </div> 
 </template>
 
 
-// <EventCard />
+
 
 <script lang="ts">
-import EventCard from './EventCard.vue';
+import ProductCard from './ProductCard.vue';
 import { Vue, Component } from 'vue-property-decorator';
 import { commitSetProductDetail } from '@/store/main/mutations';
+import {readProductDetail} from '@/store/main/getters';
 
 @Component({
   components: {
-    EventCard,
+    ProductCard,
   },
 })
-export default class EventList extends Vue {
+export default class ProductList extends Vue {
 
-  public product: object =  {};
-  public products: object[] = [
+  public product = {};
+  public products: object = [
         {
           id: 1,
           name: 'Charity Ball',
           category: 'Fundraising',
-          description: 'Spend an elegant night of dinner and dancing with us as we raise money for our new rescue farm.',
+          description: 'Spend an elegant night of dinner and dancing',
           featuredImage: 'https://placekitten.com/500/500',
           images: [
             'https://placekitten.com/500/500',
@@ -56,7 +52,7 @@ export default class EventList extends Vue {
             'https://placekitten.com/500/500',
           ],
           location: '1234 Fancy Ave',
-          date: '12-25-2019',
+          date: '2019-12-25',
           time: '11:30',
         },
         {
@@ -69,11 +65,14 @@ export default class EventList extends Vue {
             'https://placekitten.com/500/500',
           ],
           location: '1234 Dog Alley',
-          date: '11-21-2019',
+          date: '2019-11-21',
           time: '12:00',
         },
   ];
 
+  get loadProductDetail() {
+    return readProductDetail(this.$store);
+  }
 }
 
 </script>

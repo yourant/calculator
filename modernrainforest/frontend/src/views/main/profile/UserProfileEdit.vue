@@ -6,11 +6,7 @@
       </v-card-title>
       <v-card-text>
         <template>
-          <v-form
-            v-model="valid"
-            ref="form"
-            lazy-validation
-          >
+          <v-form v-model="valid" ref="form" lazy-validation>
             <v-text-field
               label="Full Name"
               v-model="fullName"

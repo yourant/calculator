@@ -28,9 +28,9 @@ export default new Router({
           component: () => import(/* webpackChunkName: "login" */ './views/About.vue'),
         },
         {
-          path: '/event/:id',
-          name: 'eventSingle',
-          component: () => import('./views/EventSingle.vue'),
+          path: '/product/:id',
+          name: 'productSingle',
+          component: () => import('./views/ProductSingle.vue'),
         },
         {
           path: 'login',

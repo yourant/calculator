@@ -29,14 +29,13 @@
                   Welcome to the Modern Rainforest       
                 </h1>
                 
-                <v-btn to="/event/1" color="rgb(34,34, 34, 0.8)" class="is-button">Browse Newreleases</v-btn>
+                <v-btn to="/product/1" color="rgb(34,34, 34, 0.8)" class="is-button">Browse Newreleases</v-btn>
         </div>
         
       </v-parallax>
 
-       
       </section>
-      <EventsList />
+      <ProductsList />
   </v-container>
 </template>
 
@@ -45,12 +44,12 @@
 
 <script>
 
-import EventsList from '@/components/EventsList.vue';
+import ProductsList from '@/components/ProductsList.vue';
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component({
   components: {
-    EventsList,
+    ProductsList,
   },
 })
 

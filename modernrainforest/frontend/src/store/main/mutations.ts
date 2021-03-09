@@ -29,7 +29,7 @@ export const mutations = {
         state.dashboardShowDrawer = payload;
     },
     setProductDetail(state: MainState, payload: IProductDetail) {
-        const products = state.productDetail.filter((product: IProductDetail) => product.id !== payload.id);
+        const products = state.productDetail.filter((product: IProductDetail) => product.category_id !== payload.category_id);
         products.push(payload);
         state.productDetail = products;
     },

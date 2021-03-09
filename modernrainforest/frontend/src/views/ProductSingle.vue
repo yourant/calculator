@@ -48,7 +48,7 @@
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component
-export default class EventSingle extends Vue {
+export default class ProductSingle extends Vue {
 
   }
 </script>
