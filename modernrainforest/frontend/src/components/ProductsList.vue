@@ -10,15 +10,15 @@
     <h2 class="subtitle is-3">
       Check out our upcoming products
     </h2>
-    <div class="columns is-multiline">
- 
-      <div v-for="product in products" :product="product" :key="product.id" class="column is-one-quarter">
-        <router-link :to="'/product/' + product.id">
-          <ProductCard  :product="product" />
-        </router-link>
-      </div>
 
-    </div>
+    <v-row>
+      <v-col v-for="product in products" :product="product" :key="product.id">
+        <!-- <router-link :to="'/product/' + product.id"> -->
+          <ProductCard  :product="product" />
+        <!-- </router-link> -->
+
+      </v-col>
+    </v-row>
   </div> 
 </template>
 
@@ -68,6 +68,33 @@ export default class ProductList extends Vue {
           date: '2019-11-21',
           time: '12:00',
         },
+        {
+          id: 3,
+          name: 'Rescue Center Goods Drive',
+          category: 'Adoptions',
+          description: 'Come to our donation drive to help us replenish our stock of pet food, toys, bedding, etc. We will have live bands, games, food trucks, and much more.',
+          featuredImage: 'https://placekitten.com/500/500',
+          images: [
+            'https://placekitten.com/500/500',
+          ],
+          location: '1234 Dog Alley',
+          date: '2019-11-21',
+          time: '12:00',
+        },
+                {
+          id: 4,
+          name: 'Rescue Center Goods Drive',
+          category: 'Adoptions',
+          description: 'Come to our donation drive to help us replenish our stock of pet food, toys, bedding, etc. We will have live bands, games, food trucks, and much more.',
+          featuredImage: 'https://placekitten.com/500/500',
+          images: [
+            'https://placekitten.com/500/500',
+          ],
+          location: '1234 Dog Alley',
+          date: '2019-11-21',
+          time: '12:00',
+        },
+
   ];
 
   get loadProductDetail() {

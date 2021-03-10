@@ -54,7 +54,6 @@ export default class NotificationsManager extends Vue {
     @Watch('firstNotification')
     public async onNotificationChange(
         newNotification: AppNotification | false,
-        oldNotification: AppNotification | false,
     ) {
         if (newNotification !== this.currentNotification) {
             await this.setNotification(newNotification);

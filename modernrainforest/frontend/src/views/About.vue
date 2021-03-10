@@ -33,9 +33,8 @@
     </v-row>
 
     <v-row justify="center" align="center" >  
-      <v-col
-        cols="12" sm="6" >
-      <v-textarea append-outer-icon="mdi-comment" solo name="input-7-4" label="leave your comment here"></v-textarea>
+      <v-col cols="12" md="6" >
+      <v-textarea solo name="input-7-4" label="leave your comment here"></v-textarea>
       </v-col>
     </v-row>
 
