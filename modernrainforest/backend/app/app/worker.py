@@ -9,3 +9,12 @@ client_sentry = Client(settings.SENTRY_DSN)
 @celery_app.task(acks_late=True)
 def test_celery(word: str) -> str:
     return f"test task return {word}"
+
+@celery_app.task
+def test_celeryagain() ->str:
+    return "this is a test"
+
+
+@celery_app.task
+def add(x, y):
+    return x + y

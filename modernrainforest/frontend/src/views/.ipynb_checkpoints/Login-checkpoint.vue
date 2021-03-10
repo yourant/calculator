@@ -1,59 +1,56 @@
-<style>
+<style lang="scss" scoped>
+
 </style>
 
 
 
 
 <template>
-  <v-content>
+  <v-main>
     <v-container fluid fill-height>
-      <v-layout align-center justify-center>
-         <v-flex xs12 sm8 md4>
-
+      <v-row justify="center" align="center" >
+         <v-col xs="12" sm="8" md="4">
           <v-card class="elevation-12">
             <v-toolbar dark color="primary">
-              <v-flex>
+              <v-col>
               <v-toolbar-title>{{appName}}</v-toolbar-title>
-              </v-flex>
+              </v-col>
   
-              <!-- <v-flex>
-                <v-tabs v-model="tab" class="elevation-12">
-                <v-tabs-slider></v-tabs-slider>  
-                <v-tab v-for="i in tabs" :key="i" :href="`#tab-${i}`" @click="selectTab(i)">
-                    {{ tabsName[i - 1] }}
-                </v-tab>  
-                </v-tabs>
-              </v-flex> -->
 
             <v-spacer></v-spacer>
             </v-toolbar>
 
 
-
-
             <v-card-text> 
-              <v-form @keyup.enter="submit">
-                <v-text-field @keyup.enter="submit" v-model="email" prepend-icon="person" name="login" label="Login" type="text"></v-text-field>
-                <v-text-field @keyup.enter="submit" v-model="password" prepend-icon="lock" name="password" label="Password" id="password" type="password"></v-text-field>
-              </v-form>
-              <div v-if="loginError">
-                <v-alert :value="loginError" transition="fade-transition" type="error">
-                  Incorrect email or password
-                </v-alert>
-              </div>
-              <v-flex class="caption text-xs-right"><router-link to="/recover-password">Forgot your password?</router-link></v-flex>
+                <v-form @keyup.enter="submit">
+                  <v-text-field @keyup.enter="submit" v-model="email" prepend-icon="person" name="login" label="Login" type="text"></v-text-field>
+                  <v-text-field @keyup.enter="submit" v-model="password" prepend-icon="lock" name="password" label="Password" id="password" type="password"></v-text-field>
+                </v-form>
+                <div v-if="loginError">
+                  <v-alert :value="loginError" transition="fade-transition" type="error">
+                    Incorrect email or password
+                  </v-alert>
+                </div>
+                <v-col class="caption text-xs-right"><router-link to="/recover-password">Forgot your password?</router-link></v-col>
 
-              <v-card-actions>
-                <v-spacer></v-spacer>
-                <v-btn to="/register">Register</v-btn>
-                <v-btn @click.prevent="submit">Login</v-btn>
-              </v-card-actions>
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+                  <v-btn class="ma-2" color="orange darken-2" dark to="/register">Register
+                              <v-icon dark left> mdi-arrow-up </v-icon>
+                    </v-btn>
+
+
+
+                  <v-btn @click.prevent="submit" color='primary'> Login
+                  <v-icon dark right > mdi-checkbox-marked-circle </v-icon>
+                  </v-btn>
+                </v-card-actions>
             </v-card-text>
           </v-card>
-          </v-flex>
-      </v-layout>
+          </v-col>
+      </v-row>
     </v-container>
-  </v-content>
+  </v-main>
 </template>
 
 <script lang="ts">
