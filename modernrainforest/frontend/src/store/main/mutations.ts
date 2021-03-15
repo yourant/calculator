@@ -28,10 +28,8 @@ export const mutations = {
     setDashboardShowDrawer(state: MainState, payload: boolean) {
         state.dashboardShowDrawer = payload;
     },
-    setProductDetail(state: MainState, payload: IProductDetail) {
-        const products = state.productDetail.filter((product: IProductDetail) => product.category_id !== payload.category_id);
-        products.push(payload);
-        state.productDetail = products;
+    setProductDetail(state: MainState, payload: IProductDetail[]) {
+        state.productDetail = payload;
     },
     addNotification(state: MainState, payload: AppNotification) {
         state.notifications.push(payload);

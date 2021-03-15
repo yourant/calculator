@@ -1,7 +1,7 @@
 import { api } from '@/api';
 import router from '@/router';
 import { getLocalToken, removeLocalToken, saveLocalToken } from '@/utils';
-import { IUserProfileRegister} from '@/interfaces';
+import { IProductDetail, IUserProfileRegister} from '@/interfaces';
 import { AxiosError } from 'axios';
 import { getStoreAccessors } from 'typesafe-vuex';
 import { ActionContext } from 'vuex';
@@ -9,6 +9,7 @@ import { State } from '../state';
 import {
     commitAddNotification,
     commitRemoveNotification,
+    commitSetProductDetail,
     commitSetLoggedIn,
     commitSetLogInError,
     commitSetToken,
@@ -38,6 +39,16 @@ export const actions = {
         } catch (err) {
             commitSetLogInError(context, true);
             await dispatchLogOut(context);
+        }
+    },
+    async actionSetProductDetail(context, payload: IProductDetail['category']) {
+        try {
+            const response = await api.getProducts(payload);
+            if (response.data) {
+                commitSetProductDetail(context, response.data);
+            }
+        } catch (error) {
+            await dispatchCheckApiError(context, error);
         }
     },
     async actionGetUserProfile(context: MainContext) {
@@ -179,6 +190,7 @@ export const dispatchCheckApiError = dispatch(actions.actionCheckApiError);
 export const dispatchCheckLoggedIn = dispatch(actions.actionCheckLoggedIn);
 export const dispatchGetUserProfile = dispatch(actions.actionGetUserProfile);
 export const dispatchSetNewUser = dispatch(actions.actionRegisterUser);
+export const dispatchSetProductDetail = dispatch(actions.actionSetProductDetail);
 export const dispatchLogIn = dispatch(actions.actionLogIn);
 export const dispatchLogOut = dispatch(actions.actionLogOut);
 export const dispatchUserLogOut = dispatch(actions.actionUserLogOut);

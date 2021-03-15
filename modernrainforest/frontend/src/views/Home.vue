@@ -30,7 +30,6 @@
                 <v-btn to="/product/1" color="rgb(34,34, 34, 0.8)" class="is-button">Browse Newreleases</v-btn>
         </div>
       </v-parallax>
-
       </section>
       <ProductsList />
   </v-container>

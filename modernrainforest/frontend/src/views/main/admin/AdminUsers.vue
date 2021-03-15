@@ -7,6 +7,7 @@
       <v-spacer></v-spacer>
       <v-btn color="primary" to="/main/admin/users/create">Create User</v-btn>
     </v-toolbar>
+    
     <v-data-table :headers="headers" :items="users">
       <template slot="items" slot-scope="props">
         <td>{{ props.item.name }}</td>
