@@ -32,7 +32,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import NotificationsManager from './components/NotificationsManager.vue';
+import NotificationsManager from './components/partials/NotificationsManager.vue';
 import Nav from './components/partials/Nav.vue';
 import { readIsLoggedIn } from './store/main/getters';
 import { dispatchCheckLoggedIn } from './store/main/actions';

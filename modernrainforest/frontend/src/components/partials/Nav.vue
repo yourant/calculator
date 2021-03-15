@@ -21,7 +21,7 @@
 
 
 <template>
-  <nav>
+  <div>
 
  <v-app-bar fixed absolute  color="white">
     <v-btn icon dark >
@@ -45,9 +45,6 @@
       clearable prepend-icon="mdi-magnify" cache-items class="mx-4" flat
       hide-no-data hide-details label="Search" solo-inverted>
     </v-autocomplete>
-    <v-btn icon>
-      <v-icon>mdi-dots-vertical</v-icon>
-    </v-btn>
 
       <v-divider class="mx-4" vertical></v-divider>
         <v-tooltip v-model="showHome" bottom>
@@ -72,16 +69,30 @@
 
       <v-divider class="mx-4" vertical></v-divider>
 
+        <v-tooltip v-model="showShop" bottom>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn icon dark v-bind="attrs" v-on="on"  to="/shop" >
+              <v-icon color="grey">  mdi-store-outline   </v-icon>
+            </v-btn>
+          </template>
+          <span> Shop </span>
+        </v-tooltip>
+
+
+
+
+      <v-divider class="mx-4" vertical></v-divider>
+
         <v-tooltip v-model="showCart" bottom>
           <template v-slot:activator="{ on, attrs }">
-            <v-btn icon dark v-bind="attrs" v-on="on"  to="/" >
+            <v-btn icon dark v-bind="attrs" v-on="on"  to="/cart" >
               <v-icon color="grey"> mdi-cart-outline </v-icon>
             </v-btn>
           </template>
           <span> Shopping Cart </span>
         </v-tooltip>
 
-<v-divider class="mx-4" vertical></v-divider>
+      <v-divider class="mx-4" vertical></v-divider>
 
   <template>
     <div >
@@ -135,54 +146,17 @@
         </v-list-item-icon>
         <v-list-item-title>Home</v-list-item-title>
       </v-list-item>
-    <v-divider></v-divider>
 
-      <v-list-group :value="true" prepend-icon="mdi-account-circle">
-        <template v-slot:activator>
-          <v-list-item-title>Users</v-list-item-title>
-        </template>
-
-        <v-list-group :value="true" no-action sub-group>
-          <template v-slot:activator>
-            <v-list-item-content>
-              <v-list-item-title>Admin</v-list-item-title>
-            </v-list-item-content>
-          </template>
-
-          <v-list-item v-for="([title, icon], i) in admins" :key="i" link >
-            <v-list-item-icon>
-              <v-icon v-text="icon"></v-icon>
-            </v-list-item-icon>
-            <v-list-item-title v-text="title"></v-list-item-title>
-          </v-list-item>
-        </v-list-group>
-
-        <v-list-group no-action sub-group >
-          <template v-slot:activator>
-            <v-list-item-content>
-              <v-list-item-title>Actions</v-list-item-title>
-            </v-list-item-content>
-          </template>
-
-          <v-list-item  v-for="([title, icon], i) in cruds" :key="i" link>
-            <v-list-item-icon>
-              <v-icon v-text="icon"></v-icon>
-            </v-list-item-icon>
-            <v-list-item-title v-text="title"></v-list-item-title>
-          </v-list-item>
-        </v-list-group>
-      </v-list-group>
     </v-list>
 
+
       <v-divider></v-divider>
-
-
       <v-btn text @click="drawer=false">Collapse</v-btn>
       <v-icon color="grey" v-html="drawer ? 'chevron_right' : 'chevron_left'"></v-icon>
 
   </v-navigation-drawer>
 
-  </nav>
+  </div>
 </template>
 
 <script lang="ts">
@@ -193,6 +167,7 @@ export default class Nav extends Vue {
   public selectedItem: string = '';
   public showHome: boolean = false;
   public showAbout: boolean = false;
+  public showShop: boolean = false;
   public showCart: boolean = false;
   public select: string = '';
   public loading: boolean = false;

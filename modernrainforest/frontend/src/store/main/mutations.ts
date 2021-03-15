@@ -28,6 +28,10 @@ export const mutations = {
     setDashboardShowDrawer(state: MainState, payload: boolean) {
         state.dashboardShowDrawer = payload;
     },
+    SetaddToCart(state: MainState, payload: { itemId: IDBIndex,quantity})
+    {
+        state.addTocart = payload
+    },
     setProductDetail(state: MainState, payload: IProductDetail[]) {
         state.productDetail = payload;
     },
@@ -49,6 +53,7 @@ export const commitSetToken = commit(mutations.setToken);
 export const commitSetNewUser = commit(mutations.setNewUser);
 export const commitSetUserProfile = commit(mutations.setUserProfile);
 export const commitSetProductDetail = commit(mutations.setProductDetail);
+export const commitAddToCart = commit(mutations.SetaddToCart);
 export const commitAddNotification = commit(mutations.addNotification);
 export const commitRemoveNotification = commit(mutations.removeNotification);
 

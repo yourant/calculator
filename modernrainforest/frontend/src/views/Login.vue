@@ -58,7 +58,6 @@ import { appName } from '@/env';
 import { readLoginError } from '@/store/main/getters';
 import { dispatchLogIn } from '@/store/main/actions';
 
-
 @Component
 export default class Login extends Vue {
   // Original ,stored in store, global var

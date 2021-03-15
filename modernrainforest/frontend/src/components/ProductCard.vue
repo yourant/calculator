@@ -6,7 +6,7 @@
 
     <v-img height="250" src="https://cdn.vuetifyjs.com/images/cards/cooking.png" ></v-img>
 
-    <v-card-title>Cafe Badilico</v-card-title>
+    <v-card-title>{{product.asin}}, {{product.brand}}</v-card-title>
 
     <v-card-text>
       <v-row align="center" class="mx-0"  >
@@ -18,15 +18,15 @@
           size="14" ></v-rating>
 
         <div class="grey--text ml-4">
-          4.5 (413)
+          {{product.rating}}
         </div>
       </v-row>
 
       <div class="my-4 subtitle-1">
-        $ • Italian, Cafe
+        {{product.price}}
       </div>
 
-      <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
+      <div>{{product.dimensions}}</div>
     </v-card-text>
 
     <v-divider class="mx-4"></v-divider>
@@ -47,7 +47,7 @@
 
     <v-card-actions>
       <v-btn color="deep-purple lighten-2" text @click="reserve" >
-        Reserve
+        Add to Shopping Cart
       </v-btn>
     </v-card-actions>
   </v-card>
@@ -59,7 +59,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class ProductCard extends Vue {
-  @Prop(Object) public product!: object;
+  @Prop(Object) public product: object | null;
   public loading: boolean = false;
   public selection: number = 1;
   public reserve() {

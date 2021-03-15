@@ -28,6 +28,41 @@ export default new Router({
           component: () => import(/* webpackChunkName: "login" */ './views/About.vue'),
         },
         {
+          path: 'shop',
+          // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import(/* webpackChunkName: "login" */ './views/Shop.vue'),
+        },
+        {
+          path: 'cart',
+          // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import(/* webpackChunkName: "login" */ './views/Cart.vue'),
+        },
+        {
+          path: 'thankyou',
+          // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import(/* webpackChunkName: "login" */ './views/Thankyou.vue'),
+        },
+        {
+          path: 'checkoutbox',
+          // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import(/* webpackChunkName: "login" */ './components/cart/CheckoutBox.vue'),
+        },
+        {
+          path: 'checkout',
+          // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import(/* webpackChunkName: "login" */ './views/Checkout.vue'),
+        },
+        {
           path: '/product/:id',
           name: 'productSingle',
           component: () => import('./views/ProductSingle.vue'),
