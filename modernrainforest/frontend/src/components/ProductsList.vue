@@ -38,64 +38,6 @@ import { dispatchSetProductDetail } from '@/store/main/actions';
 export default class ProductList extends Vue {
   public category: string = 'Office Products';
   public product = {};
-  // public products: object = [];
-
-  // [
-  //       {
-  //         id: 1,
-  //         name: 'Charity Ball',
-  //         category: 'Fundraising',
-  //         description: 'Spend an elegant night of dinner and dancing',
-  //         featuredImage: 'https://placekitten.com/500/500',
-  //         images: [
-  //           'https://placekitten.com/500/500',
-  //           'https://placekitten.com/500/500',
-  //           'https://placekitten.com/500/500',
-  //         ],
-  //         location: '1234 Fancy Ave',
-  //         date: '2019-12-25',
-  //         time: '11:30',
-  //       },
-  //       {
-  //         id: 2,
-  //         name: 'Rescue Center Goods Drive',
-  //         category: 'Adoptions',
-  //         description: 'Come to our donation drive to help us ',
-  //         featuredImage: 'https://placekitten.com/500/500',
-  //         images: [
-  //           'https://placekitten.com/500/500',
-  //         ],
-  //         location: '1234 Dog Alley',
-  //         date: '2019-11-21',
-  //         time: '12:00',
-  //       },
-  //       {
-  //         id: 3,
-  //         name: 'Rescue Center Goods Drive',
-  //         category: 'Adoptions',
-  //         description: 'Come to our
-  //         images: [
-  //           'https://placekitten.com/500/500',
-  //         ],
-  //         location: '1234 Dog Alley',
-  //         date: '2019-11-21',
-  //         time: '12:00',
-  //       },
-  //               {
-  //         id: 4,
-  //         name: 'Rescue Center Goods Drive',
-  //         category: 'Adoptions',
-  //         description: 'Come to our donation , food trucks, and much more.',
-  //         featuredImage: 'https://placekitten.com/500/500',
-  //         images: [
-  //           'https://placekitten.com/500/500',
-  //         ],
-  //         location: '1234 Dog Alley',
-  //         date: '2019-11-21',
-  //         time: '12:00',
-  //       },
-
-  // ];
 
   public async created() {
     await dispatchSetProductDetail(this.$store, this.category);
