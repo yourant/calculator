@@ -29,3 +29,17 @@ export interface IUserProfileRegister {
     is_active?: boolean;
 }
 
+export interface IProductDetail {
+    category_id: number;
+    category: string;
+    asin: string;
+    plink: string;
+    brand: string;
+    price: [];
+    rating: string;
+    ranking: Date;
+    msales: number;
+    first_date: Date;
+    dimensions: string;
+}
+

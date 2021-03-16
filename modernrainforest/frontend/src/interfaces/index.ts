@@ -38,11 +38,8 @@ export interface IProductDetail {
     price: [];
     rating: string;
     ranking: Date;
-    mrevenue: string;
     msales: number;
     first_date: Date;
     dimensions: string;
-    seller_num: number;
-    seller_type: string;
 }
 
