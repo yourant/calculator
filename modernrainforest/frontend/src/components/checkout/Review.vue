@@ -32,9 +32,9 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 @Component
 export default class Review extends Vue {
-  @Prop() public previous !: Function;
-  @Prop() public submitOrder !: Function;
-  @Prop(Object) public data :object =[];
+  @Prop() public previous !: () => void;
+  @Prop() public submitOrder !: () => void;
+  @Prop(Object) public data: object = [];
 
 }
 

@@ -32,8 +32,8 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 @Component
 export default class ContactInfo extends Vue {
-  @Prop() public next !: Function;
-  @Prop(Object) public data: [];
+  @Prop() public next !: () => void;
+  @Prop(Object) public data: object = [];
 
 }
 

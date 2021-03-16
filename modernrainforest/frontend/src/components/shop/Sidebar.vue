@@ -33,7 +33,7 @@ import { Component, Vue } from 'vue-property-decorator';
 
 @Component
 export default class Sidebar extends Vue {
-    public prices :object = [
+    public prices: object = [
         'Any',
         'Under $25',
         '$25 to $100',

@@ -82,7 +82,7 @@ export default class Checkout extends Vue {
         street: '',
         state: '',
         zip: '',
-    }
+    };
 
     public next() {
         this.step += 1;

@@ -34,9 +34,9 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 @Component
 export default class ShippingInfo extends Vue {
-  @Prop() public next !: Function;
-  @Prop() public previous !: Function;
-  @Prop(Object) public data :object =[];
+  @Prop() public next !: () => void;
+  @Prop() public previous !: () => void;
+  @Prop(Object) public data: object = [];
 
 }
 

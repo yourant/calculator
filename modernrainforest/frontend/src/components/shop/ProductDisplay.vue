@@ -27,7 +27,7 @@ import ProductCard from '../ProductCard.vue';
 import { Vue, Component } from 'vue-property-decorator';
 import { readProductDetail } from '@/store/main/getters';
 import { dispatchSetProductDetail } from '@/store/main/actions';
-import { commitAddToCart } from '@/store/main/mutations';
+// import { commitAddToCart } from '@/store/main/mutations';
 
 @Component({
   components: {
@@ -37,14 +37,14 @@ import { commitAddToCart } from '@/store/main/mutations';
 export default class ProductDisplay extends Vue {
   public category: string = 'Office Products';
   public product = {};
-  public itemId = {index:1,quantity:5};
+  public itemId = {index: 1, quantity: 5};
 
   public async created() {
     await dispatchSetProductDetail(this.$store, this.category);
   }
-  public async addToCart(index, quantity = 1) {
-    await commitAddToCart(this.itemId)
-  }
+  // public async addToCart(index, quantity = 1) {
+  //   await commitAddToCart(this.itemId)
+  // }
   get products() {
     return readProductDetail(this.$store);
   }

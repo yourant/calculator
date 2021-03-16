@@ -26,7 +26,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class HorizontalProduct extends Vue {
-  @Prop(Object) public product : object | null;
+  @Prop(Object) public product !: object | null;
   public loading: boolean = false;
   public selection: number = 1;
   public reserve() {
