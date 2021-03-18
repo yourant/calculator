@@ -47,17 +47,6 @@
 
 
 
-                        // <v-step-content step="1">
-                        //     Step 1
-                        // </v-step-content>
-
-                        //  <v-step-content step="2">
-                        //     Step 2
-                        // </v-step-content>
-                        
-                        // <v-step-content step="3">
-                        //     Step 3
-                        // </v-step-content>      
 
 <script lang="ts">
 import ContactInfo from '@/components/checkout/ContactInfo.vue';
