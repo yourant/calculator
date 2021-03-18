@@ -35,7 +35,7 @@ export interface IProductDetail {
     asin: string;
     plink: string;
     brand: string;
-    price: [];
+    price: string;
     rating: string;
     ranking: Date;
     msales: number;
