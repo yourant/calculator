@@ -1,9 +1,6 @@
 <template>
     <div>
-        <v-sheet v-if="$vuetify.breakpoint.mdAndUp"
-                :elevation="4"
-                class="pa-8"
-                >
+        <v-sheet v-if="$vuetify.breakpoint.mdAndUp" :elevation="4" class="pa-8">
         <h3>Filters</h3>
         </v-sheet>
 

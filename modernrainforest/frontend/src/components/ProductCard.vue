@@ -4,7 +4,7 @@
       <v-progress-linear color="deep-purple" height="10" indeterminate  ></v-progress-linear>
     </template>
 
-    <v-img height="250" src=product.imagelink ></v-img>
+    <v-img height="250" :src=product.imagelink ></v-img>
 
     <v-card-title>{{product.brand}}</v-card-title>
       <v-card-text>
