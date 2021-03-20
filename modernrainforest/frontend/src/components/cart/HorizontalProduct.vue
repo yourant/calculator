@@ -1,10 +1,10 @@
 <template>
-        <v-card :loading="loading"  class="mb-5 pa-4" min-width="100%" outlined>
+        <v-card :loading="loading"  class="mb-5 pa-4" min-width="60%" outlined>
             <template slot="progress">
                 <v-progress-linear color="deep-purple" height="10" indeterminate  ></v-progress-linear>
             </template>
 
-            <v-img height="250" src="https://cdn.vuetifyjs.com/images/cards/cooking.png" ></v-img>
+            <v-img height="200" width="200" :src=product.imagelink ></v-img>
 
 
             <div class="d-flex flex-column justify-center">

@@ -4,12 +4,13 @@
       <v-progress-linear color="deep-purple" height="10" indeterminate  ></v-progress-linear>
     </template>
 
-    <v-img height="250" :src=product.imagelink ></v-img>
+    <v-img height="200" width="200" :src=product.imagelink ></v-img>
 
     <v-card-title>{{product.brand}}</v-card-title>
       <v-btn text @click="goAmazon()">
       {{product.asin}}
       </v-btn>
+   
     <v-card-text>
       <v-row align="center" class="mx-0"  >
       <v-rating  :value=Number(product.rating)
@@ -54,16 +55,14 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class ProductCard extends Vue {
-  @Prop(Object) public product!: object | null;
+  @Prop(Object) public product!: object;
+
   public loading: boolean = false;
   public selection: number = 1;
   public addToCart() {
       this.loading = true;
       setTimeout(() => (this.loading = false), 2000);
-    };
-  public goAmazon() {
-    window.open(`https://www.amazon.com/dp/${this.product.asin}`, '_blank')
-  }
+    }
 }
 
 </script>

@@ -12,7 +12,7 @@
         v-for="product in products" :product="product" 
         :key="product.id">
             <!-- <router-link :to="'/product/' + product.id"> -->
-        <ProductCard  :addToCart="addToCart" :product="product" />
+        <ProductCard :product="product" />
             <!-- </router-link> -->
       </v-col>
     </v-row>
