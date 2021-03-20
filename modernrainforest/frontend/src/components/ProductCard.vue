@@ -7,12 +7,12 @@
     <v-img height="250" :src=product.imagelink ></v-img>
 
     <v-card-title>{{product.brand}}</v-card-title>
-      <v-card-text>
+      <v-btn text @click="goAmazon()">
       {{product.asin}}
-      </v-card-text>
+      </v-btn>
     <v-card-text>
       <v-row align="center" class="mx-0"  >
-      <v-rating  :value=product.rating
+      <v-rating  :value=Number(product.rating)
         color="amber"
         dense
         half-increments
@@ -58,10 +58,12 @@ export default class ProductCard extends Vue {
   public loading: boolean = false;
   public selection: number = 1;
   public addToCart() {
-
       this.loading = true;
       setTimeout(() => (this.loading = false), 2000);
-    }
+    };
+  public goAmazon() {
+    window.open(`https://www.amazon.com/dp/${this.product.asin}`, '_blank')
+  }
 }
 
 </script>
