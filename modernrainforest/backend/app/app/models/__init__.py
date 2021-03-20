@@ -1,2 +1,4 @@
 from .item import Item
 from .user import User
+from .product import Product
+from .productimage import ProductImage

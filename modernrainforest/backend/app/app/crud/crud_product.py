@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 
 from app.crud.base import CRUDBase
 from app.models.product import Product
+from app.models.productimage import ProductImage
 from app.schemas.product import ProductCreate, ProductCreate
 
 

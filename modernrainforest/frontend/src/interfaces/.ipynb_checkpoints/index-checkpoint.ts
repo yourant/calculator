@@ -41,5 +41,6 @@ export interface IProductDetail {
     msales: number;
     first_date: Date;
     dimensions: string;
+    imagelink: string;
 }
 

@@ -4,7 +4,7 @@
       <v-progress-linear color="deep-purple" height="10" indeterminate  ></v-progress-linear>
     </template>
 
-    <v-img height="250" src="https://cdn.vuetifyjs.com/images/cards/cooking.png" ></v-img>
+    <v-img height="250" src=product.imagelink ></v-img>
 
     <v-card-title>{{product.brand}}</v-card-title>
       <v-card-text>
@@ -37,7 +37,7 @@
     </v-card-title>
 
     <v-card-text>
-       {{product.first_date.split(' ')[0] || 'New Released'}}
+       {{product.first_date || 'New Released'}}
     </v-card-text>
 
     <v-card-actions>
