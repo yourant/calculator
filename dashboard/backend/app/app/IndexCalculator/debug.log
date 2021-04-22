@@ -1,0 +1,1268 @@
+
+INFO 2021-04-13 15:49:48,305 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+INFO 2021-04-13 15:49:48,422 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+INFO 2021-04-13 15:51:50,717 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+INFO 2021-04-13 15:51:50,827 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+INFO 2021-04-13 15:53:46,204 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+INFO 2021-04-13 15:53:46,309 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+INFO 2021-04-13 15:54:38,442 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+INFO 2021-04-13 15:54:38,529 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+INFO 2021-04-13 15:55:19,381 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+INFO 2021-04-13 15:55:19,490 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+INFO 2021-04-13 16:02:12,204 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+INFO 2021-04-13 16:02:12,286 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+INFO 2021-04-13 16:02:44,547 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+INFO 2021-04-13 16:02:44,656 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:07:43,178 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:07:43,272 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:07:43,324 [IndexCalculator.py:get_nrows_data:102] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 16:07:43,478 [IndexCalculator.py:get_nrows_data:123] 已完成3424行查询
+DEBUG 2021-04-13 16:10:08,681 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:10:08,802 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:10:08,867 [IndexCalculator.py:get_nrows_data:102] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 16:10:09,054 [IndexCalculator.py:get_nrows_data:123] 已完成3424行查询
+DEBUG 2021-04-13 16:17:05,247 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:17:05,344 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:21:37,460 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:21:37,545 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:27:46,831 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:27:46,944 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:28:45,510 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:28:45,601 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:34:40,250 [IndexCalculator.py:get_nrows_data:102] {message}
+DEBUG 2021-04-13 16:34:40,349 [IndexCalculator.py:get_nrows_data:123] {message}
+DEBUG 2021-04-13 16:37:40,889 [IndexCalculator.py:get_nrows_data:102] {message}
+DEBUG 2021-04-13 16:37:41,027 [IndexCalculator.py:get_nrows_data:123] {message}
+DEBUG 2021-04-13 16:40:12,051 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:40:12,184 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:41:10,055 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:41:10,137 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:41:10,190 [IndexCalculator.py:_get_data_checked:149] 已完成1000行US站数据查询,
+                          共35个品类
+                          其中有133行有效,
+                          有效比例为: 0%,
+                          有效cii占比：category_id
+10967671       28.6
+11042211       27.6
+11444032011    27.6
+1243836011     27.6
+13299141       27.6
+13397491       28.6
+14554130011    28.6
+15708021       27.6
+16169908011    27.6
+219704011      27.6
+3398811        27.6
+3403611        28.6
+3473431        27.6
+3737711        28.6
+3741431        28.6
+3741551        28.6
+3741611        28.6
+3762871        28.6
+3776851        27.6
+3777061        25.0
+384994011      27.6
+393298011      27.6
+404817011      28.6
+5006549011     28.6
+5315078011     27.6
+5315122011     27.6
+542638011      27.6
+542639011      27.6
+551462         28.6
+552824         27.6
+553276         27.6
+6810202011     27.6
+7161075011     28.6
+7161081011     28.6
+9022410011     27.6
+dtype: float64%,
+                          有效日期占比：1.0%,
+                        
+DEBUG 2021-04-13 16:41:10,251 [IndexCalculator.py:get_data_cleaned:191] dropped :2 categories
+DEBUG 2021-04-13 16:45:03,611 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:45:03,706 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:45:06,513 [IndexCalculator.py:_get_data_checked:149] 已完成1000行US站数据查询,
+                          共35个品类
+                          其中有133行有效,
+                          有效比例为: 100.0%,
+                          有效cii占比：category_id
+10967671       28.6
+11042211       27.6
+11444032011    27.6
+1243836011     27.6
+13299141       27.6
+13397491       28.6
+14554130011    28.6
+15708021       27.6
+16169908011    27.6
+219704011      27.6
+3398811        27.6
+3403611        28.6
+3473431        27.6
+3737711        28.6
+3741431        28.6
+3741551        28.6
+3741611        28.6
+3762871        28.6
+3776851        27.6
+3777061        25.0
+384994011      27.6
+393298011      27.6
+404817011      28.6
+5006549011     28.6
+5315078011     27.6
+5315122011     27.6
+542638011      27.6
+542639011      27.6
+551462         28.6
+552824         27.6
+553276         27.6
+6810202011     27.6
+7161075011     28.6
+7161081011     28.6
+9022410011     27.6
+dtype: float64%,
+                          有效日期占比：1.0%,
+                        
+DEBUG 2021-04-13 16:45:06,559 [IndexCalculator.py:get_data_cleaned:191] dropped :2 categories
+DEBUG 2021-04-13 16:54:27,752 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:54:27,857 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 16:59:20,749 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 16:59:20,842 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 17:00:53,219 [IndexCalculator.py:get_nrows_data:102] 正在查询1000行04-10日US站数据
+DEBUG 2021-04-13 17:00:53,311 [IndexCalculator.py:get_nrows_data:123] 已完成1000行查询
+DEBUG 2021-04-13 17:00:53,363 [IndexCalculator.py:_get_data_checked:152] 已完成1000行US站数据查询,
+                          共35个品类
+                          其中有133行有效,
+                          有效比例为: 100.0%,
+                          有效cii占比：0.004%,
+                          有效日期占比：1.0%,
+                        
+DEBUG 2021-04-13 17:00:53,410 [IndexCalculator.py:get_data_cleaned:194] dropped :2 categories
+DEBUG 2021-04-13 17:04:47,192 [IndexCalculator.py:<module>:411] start running indexes calculation of all sites
+DEBUG 2021-04-13 17:04:52,883 [IndexCalculator.py:calculateAll:405] now calculating us site data
+DEBUG 2021-04-13 17:04:52,948 [IndexCalculator.py:get_nrows_data:102] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 17:04:53,072 [IndexCalculator.py:get_nrows_data:123] 已完成3424行查询
+DEBUG 2021-04-13 17:04:53,107 [IndexCalculator.py:_get_data_checked:152] 已完成3424行US站数据查询,
+
+                          共35个品类
+
+                          其中有1335行有效,
+
+                          有效比例为: 100.0%,
+
+                          有效cii占比：-0.214%,
+
+                          有效日期占比：0.982%,
+
+                        
+DEBUG 2021-04-13 17:04:53,170 [IndexCalculator.py:get_data_cleaned:192] dropped :14 categories
+DEBUG 2021-04-13 17:04:53,439 [IndexCalculator.py:get_indexes:324] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 17:04:53,539 [IndexCalculator.py:get_indexes:333] 计算完成
+DEBUG 2021-04-13 17:04:53,542 [IndexCalculator.py:calculateAll:407] us index calculation finished)
+DEBUG 2021-04-13 17:04:53,546 [IndexCalculator.py:calculateAll:405] now calculating uk site data
+DEBUG 2021-04-13 17:05:05,176 [IndexCalculator.py:get_nrows_data:102] 正在查询987903行03-26日UK站数据
+DEBUG 2021-04-13 17:05:35,635 [IndexCalculator.py:get_nrows_data:123] 已完成987903行查询
+DEBUG 2021-04-13 17:09:19,214 [IndexCalculator.py:<module>:411] start running indexes calculation of all sites
+DEBUG 2021-04-13 17:09:25,451 [IndexCalculator.py:calculateAll:405] now calculating us site data
+DEBUG 2021-04-13 17:09:25,462 [IndexCalculator.py:get_all_indexes:343] 开始全品类查询与计算
+DEBUG 2021-04-13 17:09:25,512 [IndexCalculator.py:get_nrows_data:102] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 17:09:25,652 [IndexCalculator.py:get_nrows_data:123] 已完成3424行查询
+DEBUG 2021-04-13 17:09:25,697 [IndexCalculator.py:_get_data_checked:152] 已完成3424行US站数据查询,
+
+                          共35个品类
+
+                          其中有1335行有效,
+
+                          有效比例为: 100.0%,
+
+                          有效cii占比：99.4%,
+
+                          有效日期占比：0.982%,
+
+                        
+DEBUG 2021-04-13 17:09:25,761 [IndexCalculator.py:get_data_cleaned:192] dropped :14 categories
+DEBUG 2021-04-13 17:09:26,005 [IndexCalculator.py:get_indexes:324] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 17:09:26,107 [IndexCalculator.py:get_indexes:333] 计算完成
+DEBUG 2021-04-13 17:26:28,386 [IndexCalculator.py:get_all_indexes:343] 开始全品类查询与计算
+DEBUG 2021-04-13 17:26:28,442 [IndexCalculator.py:get_nrows_data:102] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 17:26:28,620 [IndexCalculator.py:get_nrows_data:123] 已完成3424行查询
+DEBUG 2021-04-13 17:26:28,653 [IndexCalculator.py:_get_data_checked:152] 已完成3424行US站数据查询,
+
+                          共35个品类
+
+                          其中有1335行有效,
+
+                          有效比例为: 100.0%,
+
+                          有效cii占比：99.4%,
+
+                          有效日期占比：0.982%,
+
+                        
+DEBUG 2021-04-13 17:26:28,709 [IndexCalculator.py:get_data_cleaned:192] dropped :14 categories
+DEBUG 2021-04-13 17:26:29,031 [IndexCalculator.py:get_indexes:324] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 17:26:29,165 [IndexCalculator.py:get_indexes:333] 计算完成
+DEBUG 2021-04-13 17:26:35,018 [IndexCalculator.py:get_all_indexes:343] 开始全品类查询与计算
+DEBUG 2021-04-13 17:26:35,061 [IndexCalculator.py:get_nrows_data:102] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 17:26:35,219 [IndexCalculator.py:get_nrows_data:123] 已完成3424行查询
+DEBUG 2021-04-13 17:26:35,250 [IndexCalculator.py:_get_data_checked:152] 已完成3424行US站数据查询,
+
+                          共35个品类
+
+                          其中有1335行有效,
+
+                          有效比例为: 100.0%,
+
+                          有效cii占比：99.4%,
+
+                          有效日期占比：0.982%,
+
+                        
+DEBUG 2021-04-13 17:26:35,295 [IndexCalculator.py:get_data_cleaned:192] dropped :14 categories
+DEBUG 2021-04-13 17:26:35,591 [IndexCalculator.py:get_indexes:324] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 17:26:35,785 [IndexCalculator.py:get_indexes:333] 计算完成
+DEBUG 2021-04-13 17:35:05,533 [IndexCalculator.py:get_all_indexes:343] 开始全品类查询与计算
+DEBUG 2021-04-13 17:35:05,584 [IndexCalculator.py:get_nrows_data:102] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 17:35:05,737 [IndexCalculator.py:get_nrows_data:123] 已完成3424行查询
+DEBUG 2021-04-13 17:35:05,766 [IndexCalculator.py:_get_data_checked:152] 已完成3424行US站数据查询,
+
+                          共35个品类
+
+                          其中有1335行有效,
+
+                          有效比例为: 100.0%,
+
+                          有效cii占比：99.4%,
+
+                          有效日期占比：0.982%,
+
+                        
+DEBUG 2021-04-13 17:35:05,806 [IndexCalculator.py:get_data_cleaned:192] dropped :14 categories
+DEBUG 2021-04-13 17:35:06,134 [IndexCalculator.py:get_indexes:324] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 17:35:06,235 [IndexCalculator.py:get_indexes:333] 计算完成
+DEBUG 2021-04-13 17:38:01,515 [IndexCalculator.py:get_all_indexes:343] 开始全品类查询与计算
+DEBUG 2021-04-13 17:38:01,566 [IndexCalculator.py:get_nrows_data:102] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 17:38:01,709 [IndexCalculator.py:get_nrows_data:123] 已完成3424行查询
+DEBUG 2021-04-13 17:38:01,747 [IndexCalculator.py:_get_data_checked:152] 已完成3424行US站数据查询,
+
+                          共35个品类
+
+                          其中有1335行有效,
+
+                          有效比例为: 100.0%,
+
+                          有效cii占比：99.4%,
+
+                          有效日期占比：0.982%,
+
+                        
+DEBUG 2021-04-13 17:38:01,791 [IndexCalculator.py:get_data_cleaned:192] dropped :14 categories
+DEBUG 2021-04-13 17:38:02,118 [IndexCalculator.py:get_indexes:324] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 17:38:02,253 [IndexCalculator.py:get_indexes:333] 计算完成
+DEBUG 2021-04-13 18:26:18,158 [IndexCalculator.py:get_all_indexes:351] 开始全品类查询与计算
+DEBUG 2021-04-13 18:26:21,814 [IndexCalculator.py:get_nrows_data:111] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 18:26:21,963 [IndexCalculator.py:get_nrows_data:132] 已完成3424行查询
+DEBUG 2021-04-13 18:26:22,061 [IndexCalculator.py:_get_data_checked:161] 已完成3424行US站数据查询,
+
+                         共35个品类
+
+                         其中有1335行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.4%,
+
+                         有效日期占比：0.982%,
+
+                      
+DEBUG 2021-04-13 18:26:22,102 [IndexCalculator.py:get_data_cleaned:201] dropped :14 categories
+DEBUG 2021-04-13 18:26:22,412 [IndexCalculator.py:get_indexes:332] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 18:26:22,510 [IndexCalculator.py:get_indexes:341] 计算完成
+DEBUG 2021-04-13 18:48:19,327 [IndexCalculator.py:get_nrows_data:115] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 18:48:19,656 [IndexCalculator.py:get_nrows_data:136] 已完成3424行查询
+DEBUG 2021-04-13 18:48:19,689 [IndexCalculator.py:_get_data_checked:165] 已完成3424行US站数据查询,
+
+                         共35个品类
+
+                         其中有1335行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.4%,
+
+                         有效日期占比：0.982%,
+
+                      
+DEBUG 2021-04-13 18:48:19,997 [IndexCalculator.py:get_data_cleaned:205] dropped :14 categories
+DEBUG 2021-04-13 18:48:20,890 [IndexCalculator.py:get_indexes:336] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 18:48:21,031 [IndexCalculator.py:get_indexes:345] 计算完成
+DEBUG 2021-04-13 18:48:21,044 [IndexCalculator.py:get_all_indexes:355] 开始全品类查询与计算
+DEBUG 2021-04-13 18:48:27,545 [IndexCalculator.py:post_result_db:411] 已存入 math_model.categories_index_us
+DEBUG 2021-04-13 18:48:31,085 [IndexCalculator.py:get_nrows_data:115] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 18:48:31,267 [IndexCalculator.py:get_nrows_data:136] 已完成3424行查询
+DEBUG 2021-04-13 18:48:31,296 [IndexCalculator.py:_get_data_checked:165] 已完成3424行US站数据查询,
+
+                         共35个品类
+
+                         其中有1335行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.4%,
+
+                         有效日期占比：0.982%,
+
+                      
+DEBUG 2021-04-13 18:48:31,344 [IndexCalculator.py:get_data_cleaned:205] dropped :14 categories
+DEBUG 2021-04-13 18:48:31,847 [IndexCalculator.py:get_indexes:336] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 18:48:32,000 [IndexCalculator.py:get_indexes:345] 计算完成
+DEBUG 2021-04-13 18:48:32,005 [IndexCalculator.py:get_all_indexes:355] 开始全品类查询与计算
+DEBUG 2021-04-13 18:57:07,876 [IndexCalculator.py:get_nrows_data:115] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 18:57:08,108 [IndexCalculator.py:get_nrows_data:136] 已完成3424行查询
+DEBUG 2021-04-13 18:57:08,153 [IndexCalculator.py:_get_data_checked:165] 已完成3424行US站数据查询,
+
+                         共35个品类
+
+                         其中有1335行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.4%,
+
+                         有效日期占比：0.982%,
+
+                      
+DEBUG 2021-04-13 18:57:08,227 [IndexCalculator.py:get_data_cleaned:205] dropped :14 categories
+DEBUG 2021-04-13 18:57:08,530 [IndexCalculator.py:get_indexes:336] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 18:57:08,674 [IndexCalculator.py:get_indexes:345] 计算完成
+DEBUG 2021-04-13 18:57:08,678 [IndexCalculator.py:get_all_indexes:355] 开始全品类查询与计算
+DEBUG 2021-04-13 18:57:14,940 [IndexCalculator.py:post_result_db:411] 已存入 math_model.categories_index_us
+DEBUG 2021-04-13 18:58:08,450 [IndexCalculator.py:get_nrows_data:115] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 18:58:08,594 [IndexCalculator.py:get_nrows_data:136] 已完成3424行查询
+DEBUG 2021-04-13 18:58:08,623 [IndexCalculator.py:_get_data_checked:165] 已完成3424行US站数据查询,
+
+                         共35个品类
+
+                         其中有1335行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.4%,
+
+                         有效日期占比：0.982%,
+
+                      
+DEBUG 2021-04-13 18:58:08,682 [IndexCalculator.py:get_data_cleaned:205] dropped :14 categories
+DEBUG 2021-04-13 18:58:09,294 [IndexCalculator.py:get_indexes:336] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 18:58:09,482 [IndexCalculator.py:get_indexes:345] 计算完成
+DEBUG 2021-04-13 18:58:09,486 [IndexCalculator.py:get_all_indexes:355] 开始全品类查询与计算
+DEBUG 2021-04-13 19:04:03,949 [IndexCalculator.py:get_nrows_data:115] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 19:04:04,086 [IndexCalculator.py:get_nrows_data:136] 已完成3424行查询
+DEBUG 2021-04-13 19:04:04,122 [IndexCalculator.py:_get_data_checked:165] 已完成3424行US站数据查询,
+
+                         共35个品类
+
+                         其中有1335行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.4%,
+
+                         有效日期占比：0.982%,
+
+                      
+DEBUG 2021-04-13 19:04:04,162 [IndexCalculator.py:get_data_cleaned:205] dropped :14 categories
+DEBUG 2021-04-13 19:04:04,494 [IndexCalculator.py:get_indexes:336] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 19:04:04,581 [IndexCalculator.py:get_indexes:345] 计算完成
+DEBUG 2021-04-13 19:04:04,584 [IndexCalculator.py:get_all_indexes:355] 开始全品类查询与计算
+DEBUG 2021-04-13 19:04:10,414 [IndexCalculator.py:post_result_db:414] all_categories_us_2021-04-10 is nearer than 2021-04-10 00:00:00
+DEBUG 2021-04-13 19:08:53,027 [IndexCalculator.py:get_nrows_data:115] 正在查询3424行04-10日US站数据
+DEBUG 2021-04-13 19:08:53,211 [IndexCalculator.py:get_nrows_data:136] 已完成3424行查询
+DEBUG 2021-04-13 19:08:53,249 [IndexCalculator.py:_get_data_checked:165] 已完成3424行US站数据查询,
+
+                         共35个品类
+
+                         其中有1335行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.4%,
+
+                         有效日期占比：0.982%,
+
+                      
+DEBUG 2021-04-13 19:08:53,297 [IndexCalculator.py:get_data_cleaned:205] dropped :14 categories
+DEBUG 2021-04-13 19:08:53,607 [IndexCalculator.py:get_indexes:336] calculating indexes using all_categories_us_2021-04-10
+DEBUG 2021-04-13 19:08:53,815 [IndexCalculator.py:get_indexes:345] 计算完成
+DEBUG 2021-04-14 10:57:45,078 [IndexCalculator.py:get_nrows_data:115] 正在查询300行04-12日US站数据
+DEBUG 2021-04-14 10:57:45,366 [IndexCalculator.py:get_nrows_data:136] 已完成300行查询
+DEBUG 2021-04-14 10:57:45,416 [IndexCalculator.py:_get_data_checked:165] 已完成300行US站数据查询,
+
+                         共300个品类
+
+                         其中有14行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：12.5%,
+
+                         有效日期占比：1.0%,
+
+                      
+DEBUG 2021-04-14 10:57:45,484 [IndexCalculator.py:get_data_cleaned:205] dropped :0 categories
+DEBUG 2021-04-14 13:29:43,865 [IndexCalculator.py:get_nrows_data:115] 正在查询300行04-12日US站数据
+DEBUG 2021-04-14 13:29:44,537 [IndexCalculator.py:get_nrows_data:136] 已完成300行查询
+DEBUG 2021-04-14 13:29:44,580 [IndexCalculator.py:_get_data_checked:165] 已完成300行US站数据查询,
+
+                         共300个品类
+
+                         其中有14行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：12.5%,
+
+                         有效日期占比：1.0%,
+
+                      
+DEBUG 2021-04-14 13:29:44,619 [IndexCalculator.py:get_data_cleaned:205] dropped :0 categories
+DEBUG 2021-04-15 10:30:23,174 [IndexCalculator.py:get_nrows_data:151] 正在查询200行<coroutine object IndexCalculator._remark at 0x000002C0F84B3840>日US站数据
+DEBUG 2021-04-15 10:32:10,138 [IndexCalculator.py:get_nrows_data:151] 正在查询200行04-14日US站数据
+DEBUG 2021-04-15 10:34:15,948 [IndexCalculator.py:get_nrows_data:151] 正在查询200行04-14日US站数据
+DEBUG 2021-04-15 10:34:16,350 [IndexCalculator.py:get_nrows_data:186] 已完成200行查询
+DEBUG 2021-04-15 10:34:16,457 [IndexCalculator.py:_get_data_checked:244] 已完成200行US站数据查询,
+
+                         共200个品类
+
+                         其中有8行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：12.5%,
+
+                         有效日期占比：1.0%,
+
+                      
+DEBUG 2021-04-15 10:34:16,492 [IndexCalculator.py:get_data_cleaned:294] dropped :0 categories
+DEBUG 2021-04-15 10:40:09,329 [IndexCalculator.py:<module>:620] start running indexes calculation of all sites
+DEBUG 2021-04-15 10:43:01,262 [IndexCalculator.py:<module>:621] start running indexes calculation of all sites
+DEBUG 2021-04-15 10:43:17,843 [IndexCalculator.py:<module>:622] start running indexes calculation of all sites
+DEBUG 2021-04-15 10:43:17,855 [IndexCalculator.py:calculateAll:614] now calculating us site data
+DEBUG 2021-04-15 10:43:17,869 [IndexCalculator.py:get_all_indexes:508] 开始全品类查询与计算
+DEBUG 2021-04-15 10:43:56,292 [IndexCalculator.py:<module>:622] start running indexes calculation of all sites
+DEBUG 2021-04-15 10:43:56,314 [IndexCalculator.py:calculateAll:614] now calculating us site data
+DEBUG 2021-04-15 10:43:56,330 [IndexCalculator.py:get_all_indexes:508] 开始全品类查询与计算
+DEBUG 2021-04-15 10:44:31,511 [IndexCalculator.py:<module>:622] start running indexes calculation of all sites
+DEBUG 2021-04-15 10:44:31,523 [IndexCalculator.py:calculateAll:614] now calculating us site data
+DEBUG 2021-04-15 10:44:31,532 [IndexCalculator.py:get_all_indexes:508] 开始全品类查询与计算
+DEBUG 2021-04-15 10:52:19,605 [IndexCalculator.py:<module>:622] start running indexes calculation of all sites
+DEBUG 2021-04-15 10:52:19,625 [IndexCalculator.py:calculateAll:614] now calculating us site data
+DEBUG 2021-04-15 10:52:19,636 [IndexCalculator.py:get_all_indexes:508] 开始全品类查询与计算
+DEBUG 2021-04-15 10:52:21,567 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+DEBUG 2021-04-15 10:52:21,598 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+DEBUG 2021-04-15 10:52:21,647 [IndexCalculator.py:_get_data_checked:245] 已完成0行US站数据查询,
+
+                         共0个品类
+
+                         其中有0行有效,
+
+                         有效比例为: nan%,
+
+                         有效cii占比：nan%,
+
+                         有效日期占比：nan%,
+
+                      
+DEBUG 2021-04-15 10:52:21,688 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+DEBUG 2021-04-15 10:53:46,531 [IndexCalculator.py:<module>:622] start running indexes calculation of all sites
+DEBUG 2021-04-15 10:53:46,554 [IndexCalculator.py:calculateAll:614] now calculating us site data
+DEBUG 2021-04-15 10:53:48,337 [IndexCalculator.py:get_all_indexes:508] 开始全品类查询与计算
+DEBUG 2021-04-15 10:53:51,873 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+DEBUG 2021-04-15 10:53:51,922 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+DEBUG 2021-04-15 10:53:51,969 [IndexCalculator.py:_get_data_checked:245] 已完成0行US站数据查询,
+
+                         共0个品类
+
+                         其中有0行有效,
+
+                         有效比例为: nan%,
+
+                         有效cii占比：nan%,
+
+                         有效日期占比：nan%,
+
+                      
+DEBUG 2021-04-15 10:53:52,012 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+INFO 2021-04-15 10:54:49,981 [IndexCalculator.py:<module>:622] start running indexes calculation of all sites
+INFO 2021-04-15 10:54:50,006 [IndexCalculator.py:calculateAll:614] now calculating us site data
+INFO 2021-04-15 10:54:51,966 [IndexCalculator.py:get_all_indexes:508] 开始全品类查询与计算
+INFO 2021-04-15 10:54:55,953 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+INFO 2021-04-15 10:54:56,007 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+INFO 2021-04-15 10:54:56,087 [IndexCalculator.py:_get_data_checked:245] 已完成0行US站数据查询,
+
+                         共0个品类
+
+                         其中有0行有效,
+
+                         有效比例为: nan%,
+
+                         有效cii占比：nan%,
+
+                         有效日期占比：nan%,
+
+                      
+INFO 2021-04-15 10:54:56,163 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+INFO 2021-04-15 11:11:30,942 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+INFO 2021-04-15 11:11:30,994 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+INFO 2021-04-15 11:11:31,033 [IndexCalculator.py:_get_data_checked:245] 已完成0行US站数据查询,
+
+                         共0个品类
+
+                         其中有0行有效,
+
+                         有效比例为: nan%,
+
+                         有效cii占比：nan%,
+
+                         有效日期占比：nan%,
+
+                      
+INFO 2021-04-15 11:11:31,068 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+INFO 2021-04-15 11:12:01,047 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+INFO 2021-04-15 11:12:01,072 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+INFO 2021-04-15 11:12:01,095 [IndexCalculator.py:_get_data_checked:245] 已完成0行US站数据查询,
+
+                         共0个品类
+
+                         其中有0行有效,
+
+                         有效比例为: nan%,
+
+                         有效cii占比：nan%,
+
+                         有效日期占比：nan%,
+
+                      
+INFO 2021-04-15 11:12:01,123 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+INFO 2021-04-15 11:12:08,000 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+INFO 2021-04-15 11:12:08,025 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+INFO 2021-04-15 11:15:00,311 [IndexCalculator.py:get_nrows_data:152] 正在查询300行04-14日US站数据
+INFO 2021-04-15 11:15:00,444 [IndexCalculator.py:get_nrows_data:187] 已完成300行查询
+INFO 2021-04-15 11:15:00,530 [IndexCalculator.py:_get_data_checked:245] 已完成300行US站数据查询,
+
+                         共300个品类
+
+                         其中有12行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：12.5%,
+
+                         有效日期占比：1.0%,
+
+                      
+INFO 2021-04-15 11:15:00,613 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+INFO 2021-04-15 11:15:09,938 [IndexCalculator.py:get_all_indexes:508] 开始全品类查询与计算
+INFO 2021-04-15 11:15:55,927 [IndexCalculator.py:get_all_indexes:508] 开始全品类查询与计算
+INFO 2021-04-15 11:15:59,835 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+INFO 2021-04-15 11:15:59,866 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+INFO 2021-04-15 11:15:59,913 [IndexCalculator.py:_get_data_checked:245] 已完成0行US站数据查询,
+
+                         共0个品类
+
+                         其中有0行有效,
+
+                         有效比例为: nan%,
+
+                         有效cii占比：nan%,
+
+                         有效日期占比：nan%,
+
+                      
+INFO 2021-04-15 11:15:59,952 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+INFO 2021-04-15 11:16:23,026 [IndexCalculator.py:get_nrows_data:152] 正在查询300行04-14日US站数据
+INFO 2021-04-15 11:16:23,089 [IndexCalculator.py:get_nrows_data:187] 已完成300行查询
+INFO 2021-04-15 11:16:23,125 [IndexCalculator.py:_get_data_checked:245] 已完成300行US站数据查询,
+
+                         共300个品类
+
+                         其中有12行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：12.5%,
+
+                         有效日期占比：1.0%,
+
+                      
+INFO 2021-04-15 11:16:23,186 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+INFO 2021-04-15 11:17:06,905 [IndexCalculator.py:get_nrows_data:152] 正在查询300行04-14日US站数据
+INFO 2021-04-15 11:17:06,966 [IndexCalculator.py:get_nrows_data:187] 已完成300行查询
+INFO 2021-04-15 11:17:14,049 [IndexCalculator.py:get_nrows_data:152] 正在查询300行04-14日US站数据
+INFO 2021-04-15 11:17:14,091 [IndexCalculator.py:get_nrows_data:187] 已完成300行查询
+INFO 2021-04-15 11:18:06,348 [IndexCalculator.py:_get_data_checked:245] 已完成300行US站数据查询,
+
+                         共300个品类
+
+                         其中有12行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：12.5%,
+
+                         有效日期占比：1.0%,
+
+                      
+INFO 2021-04-15 11:18:06,380 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+INFO 2021-04-15 11:20:02,688 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+INFO 2021-04-15 11:20:02,720 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+INFO 2021-04-15 11:20:02,747 [IndexCalculator.py:_get_data_checked:245] 已完成0行US站数据查询,
+
+                         共0个品类
+
+                         其中有0行有效,
+
+                         有效比例为: nan%,
+
+                         有效cii占比：nan%,
+
+                         有效日期占比：nan%,
+
+                      
+INFO 2021-04-15 11:20:02,809 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+INFO 2021-04-15 11:20:15,268 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+INFO 2021-04-15 11:20:15,306 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+INFO 2021-04-15 11:20:23,629 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+INFO 2021-04-15 11:20:23,658 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+INFO 2021-04-15 11:34:50,187 [IndexCalculator.py:get_all_indexes:503] 开始全品类查询与计算
+INFO 2021-04-15 11:34:53,668 [IndexCalculator.py:get_nrows_data:152] 正在查询0行04-14日US站数据
+INFO 2021-04-15 11:34:53,711 [IndexCalculator.py:get_nrows_data:187] 已完成0行查询
+INFO 2021-04-15 11:34:53,753 [IndexCalculator.py:_get_data_checked:245] 已完成0行US站数据查询,
+
+                         共0个品类
+
+                         其中有0行有效,
+
+                         有效比例为: nan%,
+
+                         有效cii占比：nan%,
+
+                         有效日期占比：nan%,
+
+                      
+INFO 2021-04-15 11:34:53,795 [IndexCalculator.py:get_data_cleaned:295] dropped :0 categories
+INFO 2021-04-15 11:36:29,635 [IndexCalculator.py:get_all_indexes:500] 开始全品类查询与计算
+INFO 2021-04-15 11:38:26,513 [IndexCalculator.py:get_all_indexes:500] 开始全品类查询与计算
+INFO 2021-04-15 11:38:31,170 [IndexCalculator.py:get_nrows_data:149] 正在查询882650行04-14日US站数据
+INFO 2021-04-15 11:39:03,425 [IndexCalculator.py:get_nrows_data:184] 已完成882650行查询
+INFO 2021-04-15 11:39:06,025 [IndexCalculator.py:_get_data_checked:242] 已完成882650行US站数据查询,
+
+                         共9785个品类
+
+                         其中有409031行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：0.917%,
+
+                      
+INFO 2021-04-15 11:39:11,719 [IndexCalculator.py:get_data_cleaned:292] dropped :3712 categories
+INFO 2021-04-15 11:40:28,705 [IndexCalculator.py:get_indexes:477] calculating indexes using all_categories_us_2021-04-14
+INFO 2021-04-15 11:40:59,925 [IndexCalculator.py:get_nrows_data:149] 正在查询884204行04-14日US站数据
+INFO 2021-04-15 11:41:30,851 [IndexCalculator.py:get_nrows_data:184] 已完成884204行查询
+INFO 2021-04-15 11:41:33,404 [IndexCalculator.py:_get_data_checked:242] 已完成884204行US站数据查询,
+
+                         共9801个品类
+
+                         其中有410017行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：0.917%,
+
+                      
+INFO 2021-04-15 11:41:39,150 [IndexCalculator.py:get_data_cleaned:292] dropped :3721 categories
+INFO 2021-04-15 11:43:05,365 [IndexCalculator.py:get_indexes:477] calculating indexes using all_categories_us_2021-04-14
+INFO 2021-04-15 11:44:18,192 [IndexCalculator.py:get_nrows_data:149] 正在查询885801行04-14日US站数据
+INFO 2021-04-15 11:44:48,018 [IndexCalculator.py:get_nrows_data:184] 已完成885801行查询
+INFO 2021-04-15 11:44:50,899 [IndexCalculator.py:_get_data_checked:242] 已完成885801行US站数据查询,
+
+                         共9817个品类
+
+                         其中有410684行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：0.917%,
+
+                      
+INFO 2021-04-15 11:44:56,418 [IndexCalculator.py:get_data_cleaned:292] dropped :3727 categories
+INFO 2021-04-15 12:10:05,794 [IndexCalculator.py:get_nrows_data:149] 正在查询896944行04-14日US站数据
+INFO 2021-04-15 12:10:39,982 [IndexCalculator.py:get_nrows_data:184] 已完成896944行查询
+INFO 2021-04-15 12:25:38,655 [IndexCalculator.py:get_nrows_data:149] 正在查询903395行04-14日US站数据
+INFO 2021-04-15 12:26:11,038 [IndexCalculator.py:get_nrows_data:184] 已完成903395行查询
+INFO 2021-04-15 12:26:52,662 [IndexCalculator.py:get_nrows_data:149] 正在查询904092行04-14日US站数据
+INFO 2021-04-15 12:27:26,234 [IndexCalculator.py:get_nrows_data:184] 已完成904092行查询
+INFO 2021-04-15 12:27:29,407 [IndexCalculator.py:_get_data_checked:236] 已完成904092行US站数据查询,
+
+                         共10013个品类
+
+                         其中有419267行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：91.8%,
+
+                      
+INFO 2021-04-15 12:27:34,369 [IndexCalculator.py:get_data_cleaned:288] dropped :3806 categories
+INFO 2021-04-15 14:38:13,481 [IndexCalculator.py:get_nrows_data:148] 正在查询971526行04-14日US站数据
+INFO 2021-04-15 14:39:26,825 [IndexCalculator.py:get_nrows_data:148] 正在查询972712行04-14日US站数据
+INFO 2021-04-15 14:39:26,878 [IndexCalculator.py:get_nrows_data:183] 已完成972712行查询
+INFO 2021-04-15 14:39:26,957 [IndexCalculator.py:_get_data_checked:235] 已完成0行US站数据查询,
+
+                         共0个品类
+
+                         其中有0行有效,
+
+                         有效比例为: nan%,
+
+                         有效cii占比：nan%,
+
+                         有效日期占比：nan%,
+
+                      
+INFO 2021-04-15 14:39:26,992 [IndexCalculator.py:get_data_cleaned:286] dropped :0 categories
+INFO 2021-04-15 14:40:35,477 [IndexCalculator.py:get_nrows_data:148] 正在查询973109行04-14日US站数据
+INFO 2021-04-15 14:40:35,512 [IndexCalculator.py:get_nrows_data:183] 已完成973109行查询
+INFO 2021-04-15 14:41:58,089 [IndexCalculator.py:get_nrows_data:148] 正在查询973999行04-14日US站数据
+INFO 2021-04-15 14:41:58,122 [IndexCalculator.py:get_nrows_data:183] 已完成973999行查询
+INFO 2021-04-15 14:42:19,263 [IndexCalculator.py:get_nrows_data:148] 正在查询973999行04-14日US站数据
+INFO 2021-04-15 14:42:19,308 [IndexCalculator.py:get_nrows_data:183] 已完成973999行查询
+INFO 2021-04-15 14:46:38,875 [IndexCalculator.py:get_nrows_data:148] 正在查询976719行04-14日US站数据
+INFO 2021-04-15 14:47:08,929 [IndexCalculator.py:get_nrows_data:148] 正在查询976740行04-14日US站数据
+INFO 2021-04-15 14:47:44,964 [IndexCalculator.py:get_nrows_data:183] 已完成976740行查询
+INFO 2021-04-15 14:47:54,998 [IndexCalculator.py:get_nrows_data:148] 正在查询977239行04-14日US站数据
+INFO 2021-04-15 14:48:31,460 [IndexCalculator.py:get_nrows_data:183] 已完成977239行查询
+INFO 2021-04-15 14:48:34,372 [IndexCalculator.py:_get_data_checked:235] 已完成977239行US站数据查询,
+
+                         共10777个品类
+
+                         其中有443577行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：92.10000000000001%,
+
+                      
+INFO 2021-04-15 14:48:39,825 [IndexCalculator.py:get_data_cleaned:286] dropped :4005 categories
+INFO 2021-04-15 14:57:05,919 [IndexCalculator.py:get_all_indexes:494] 开始全品类查询与计算
+INFO 2021-04-15 14:57:10,879 [IndexCalculator.py:get_nrows_data:148] 正在查询981358行04-14日US站数据
+INFO 2021-04-15 14:57:49,184 [IndexCalculator.py:get_nrows_data:183] 已完成981358行查询
+INFO 2021-04-15 14:57:52,120 [IndexCalculator.py:_get_data_checked:235] 已完成981358行US站数据查询,
+
+                         共10823个品类
+
+                         其中有444656行有效,
+
+                         有效比例为: 100.0%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：92.10000000000001%,
+
+                      
+INFO 2021-04-15 14:57:57,876 [IndexCalculator.py:get_data_cleaned:286] dropped :4011 categories
+INFO 2021-04-15 15:01:58,090 [IndexCalculator.py:get_all_indexes:483] 开始全品类查询与计算
+INFO 2021-04-15 15:02:03,285 [IndexCalculator.py:get_nrows_data:148] 正在查询984057行04-14日US站数据
+INFO 2021-04-15 15:02:41,295 [IndexCalculator.py:get_nrows_data:183] 已完成984057行查询
+INFO 2021-04-15 15:02:43,894 [IndexCalculator.py:_get_data_checked:224] 已完成984057行US站数据查询,
+
+                         共10854个品类
+
+                         其中有538526行有效,
+
+                         有效比例为: 45.275%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：92.051%,
+
+                      
+INFO 2021-04-15 15:02:50,015 [IndexCalculator.py:get_data_cleaned:275] dropped :4016 categories
+INFO 2021-04-15 15:04:20,768 [IndexCalculator.py:get_indexes:460] calculating indexes using all_categories_us_2021-04-14
+INFO 2021-04-15 15:04:33,807 [IndexCalculator.py:get_indexes:471] 计算完成
+INFO 2021-04-15 15:15:29,491 [IndexCalculator.py:get_all_indexes:482] 开始全品类查询与计算
+INFO 2021-04-15 15:15:34,542 [IndexCalculator.py:get_nrows_data:147] 正在查询989701行04-14日US站数据
+INFO 2021-04-15 15:16:08,230 [IndexCalculator.py:get_nrows_data:182] 已完成989701行查询
+INFO 2021-04-15 15:16:10,919 [IndexCalculator.py:_get_data_checked:223] 已完成989701行US站数据查询,
+
+                         共10916个品类
+
+                         其中有541557行有效,
+
+                         有效比例为: 45.281%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：92.055%,
+
+                      
+INFO 2021-04-15 15:16:16,546 [IndexCalculator.py:get_data_cleaned:274] dropped :4041 categories
+INFO 2021-04-15 15:17:41,764 [IndexCalculator.py:get_indexes:459] calculating indexes using all_categories_us_2021-04-14
+INFO 2021-04-15 15:17:54,618 [IndexCalculator.py:get_indexes:470] 计算完成
+INFO 2021-04-15 15:26:53,918 [IndexCalculator.py:get_all_indexes:482] 开始全品类查询与计算
+INFO 2021-04-15 15:26:59,179 [IndexCalculator.py:get_nrows_data:147] 正在查询990417行04-14日US站数据
+INFO 2021-04-15 15:27:32,471 [IndexCalculator.py:get_nrows_data:182] 已完成990417行查询
+INFO 2021-04-15 15:27:35,215 [IndexCalculator.py:_get_data_checked:223] 已完成990417行US站数据查询,
+
+                         共10924个品类
+
+                         其中有541856行有效,
+
+                         有效比例为: 45.29%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：92.055%,
+
+                      
+INFO 2021-04-15 15:27:40,766 [IndexCalculator.py:get_data_cleaned:274] dropped :4046 categories
+INFO 2021-04-15 15:29:13,501 [IndexCalculator.py:get_indexes:459] calculating indexes using all_categories_us_2021-04-14
+INFO 2021-04-15 15:29:24,677 [IndexCalculator.py:get_indexes:470] 计算完成
+INFO 2021-04-15 15:29:48,573 [IndexCalculator.py:post_result_db:581] 已存入 math_model.categories_index_us
+INFO 2021-04-16 15:49:49,287 [indexcalculator.py:get_nrows_data:165] 正在查询990417行04-14日US站数据
+INFO 2021-04-16 15:50:46,711 [indexcalculator.py:get_nrows_data:200] 已完成990417行查询
+INFO 2021-04-16 15:50:50,897 [indexcalculator.py:_get_data_checked:241] 已完成990417行US站数据查询,
+
+                         共10924个品类
+
+                         其中有541856行有效,
+
+                         有效比例为: 45.29%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：92.055%,
+
+                      
+INFO 2021-04-16 15:50:57,122 [indexcalculator.py:get_data_cleaned:292] dropped :4046 categories
+INFO 2021-04-16 16:13:26,161 [indexcalculator.py:_get_data_checked:242] 已完成5050行US站数据查询,
+
+                         共50个品类
+
+                         其中有4607行有效,
+
+                         有效比例为: 8.772%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：98.495%,
+
+                      
+INFO 2021-04-16 16:13:26,212 [indexcalculator.py:get_data_cleaned:293] dropped :1 categories
+INFO 2021-04-16 16:52:52,684 [indexcalculator.py:get_nrows_data:166] 正在查询3000行04-14日US站数据
+INFO 2021-04-16 16:52:53,158 [indexcalculator.py:get_nrows_data:201] 已完成3000行查询
+INFO 2021-04-16 16:52:53,189 [indexcalculator.py:_get_data_checked:242] 已完成3000行US站数据查询,
+
+                         共3000个品类
+
+                         其中有2872行有效,
+
+                         有效比例为: 4.267%,
+
+                         有效cii占比：12.5%,
+
+                         有效日期占比：100.0%,
+
+                      
+INFO 2021-04-16 16:52:53,467 [indexcalculator.py:get_data_cleaned:293] dropped :128 categories
+INFO 2021-04-16 17:01:02,741 [indexcalculator.py:get_nrows_data:166] 正在查询990417行04-14日US站数据
+INFO 2021-04-16 17:01:54,027 [indexcalculator.py:get_nrows_data:201] 已完成990417行查询
+INFO 2021-04-16 17:01:56,514 [indexcalculator.py:_get_data_checked:242] 已完成990417行US站数据查询,
+
+                         共10924个品类
+
+                         其中有541856行有效,
+
+                         有效比例为: 45.29%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：92.055%,
+
+                      
+INFO 2021-04-16 17:02:01,761 [indexcalculator.py:get_data_cleaned:293] dropped :4046 categories
+INFO 2021-04-20 09:40:21,904 [indexcalculator.py:_get_data_checked:247] 已完成3535行US站数据查询,
+
+                         共35个品类
+
+                         其中有3436行有效,
+
+                         有效比例为: 2.801%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：98.472%,
+
+                      
+INFO 2021-04-20 09:40:22,052 [indexcalculator.py:get_data_cleaned:298] dropped :0 categories
+INFO 2021-04-20 09:40:22,939 [indexcalculator.py:get_all_indexes:514] 开始全品类查询与计算
+INFO 2021-04-20 09:40:25,130 [indexcalculator.py:get_indexes:487] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 09:40:25,334 [indexcalculator.py:get_indexes:498] 计算完成
+INFO 2021-04-20 09:41:45,444 [indexcalculator.py:_get_data_checked:247] 已完成3535行US站数据查询,
+
+                         共35个品类
+
+                         其中有3436行有效,
+
+                         有效比例为: 2.801%,
+
+                         有效cii占比：99.5%,
+
+                         有效日期占比：98.472%,
+
+                      
+INFO 2021-04-20 09:41:45,561 [indexcalculator.py:get_data_cleaned:298] dropped :0 categories
+INFO 2021-04-20 09:41:46,393 [indexcalculator.py:get_all_indexes:514] 开始全品类查询与计算
+INFO 2021-04-20 09:41:48,917 [indexcalculator.py:get_indexes:487] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 09:41:49,149 [indexcalculator.py:get_indexes:498] 计算完成
+INFO 2021-04-20 17:24:06,037 [indexcalculator.py:get_nrows_data:158] 正在查询3427行04-18日US站数据
+INFO 2021-04-20 17:24:06,331 [indexcalculator.py:get_nrows_data:193] 已完成3427行查询
+INFO 2021-04-20 17:24:06,431 [indexcalculator.py:_get_data_checked:234] 已完成3427行US站数据查询,
+
+                共35个品类
+
+                其中有2083行有效,
+
+                有效比例为: 39.218%,
+
+                有效cii占比：99.6%,
+
+                有效日期占比：98.249%,
+
+             
+INFO 2021-04-20 17:24:06,593 [indexcalculator.py:get_data_cleaned:285] dropped :15 categories
+INFO 2021-04-20 17:31:24,311 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 17:31:28,218 [indexcalculator.py:get_nrows_data:158] 正在查询3427行04-18日US站数据
+INFO 2021-04-20 17:31:28,355 [indexcalculator.py:get_nrows_data:193] 已完成3427行查询
+INFO 2021-04-20 17:31:28,394 [indexcalculator.py:_get_data_checked:234] 已完成3427行US站数据查询,
+
+                共35个品类
+
+                其中有2083行有效,
+
+                有效比例为: 39.218%,
+
+                有效cii占比：99.6%,
+
+                有效日期占比：98.249%,
+
+             
+INFO 2021-04-20 17:31:28,438 [indexcalculator.py:get_data_cleaned:285] dropped :15 categories
+INFO 2021-04-20 17:31:28,789 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 17:31:28,917 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:06:34,609 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:07:07,626 [indexcalculator.py:_get_data_checked:234] 已完成303行US站数据查询,
+
+                共3个品类
+
+                其中有211行有效,
+
+                有效比例为: 30.363%,
+
+                有效cii占比：100.0%,
+
+                有效日期占比：99.01%,
+
+             
+INFO 2021-04-20 18:07:07,657 [indexcalculator.py:get_data_cleaned:285] dropped :1 categories
+INFO 2021-04-20 18:07:07,743 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:07:09,808 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:07:09,895 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:08:27,296 [indexcalculator.py:_get_data_checked:234] 已完成303行US站数据查询,
+
+                共3个品类
+
+                其中有211行有效,
+
+                有效比例为: 30.363%,
+
+                有效cii占比：100.0%,
+
+                有效日期占比：99.01%,
+
+             
+INFO 2021-04-20 18:08:27,332 [indexcalculator.py:get_data_cleaned:285] dropped :1 categories
+INFO 2021-04-20 18:08:27,412 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:08:29,778 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:08:29,857 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:08:36,071 [indexcalculator.py:_get_data_checked:234] 已完成303行US站数据查询,
+
+                共3个品类
+
+                其中有211行有效,
+
+                有效比例为: 30.363%,
+
+                有效cii占比：100.0%,
+
+                有效日期占比：99.01%,
+
+             
+INFO 2021-04-20 18:08:36,117 [indexcalculator.py:get_data_cleaned:285] dropped :1 categories
+INFO 2021-04-20 18:08:36,253 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:08:37,978 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:08:38,054 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:08:43,339 [indexcalculator.py:_get_data_checked:234] 已完成303行US站数据查询,
+
+                共3个品类
+
+                其中有211行有效,
+
+                有效比例为: 30.363%,
+
+                有效cii占比：100.0%,
+
+                有效日期占比：99.01%,
+
+             
+INFO 2021-04-20 18:08:43,364 [indexcalculator.py:get_data_cleaned:285] dropped :1 categories
+INFO 2021-04-20 18:08:43,484 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:08:45,340 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:08:45,422 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:08:50,374 [indexcalculator.py:_get_data_checked:234] 已完成303行US站数据查询,
+
+                共3个品类
+
+                其中有211行有效,
+
+                有效比例为: 30.363%,
+
+                有效cii占比：100.0%,
+
+                有效日期占比：99.01%,
+
+             
+INFO 2021-04-20 18:08:50,402 [indexcalculator.py:get_data_cleaned:285] dropped :1 categories
+INFO 2021-04-20 18:08:50,479 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:08:52,594 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:08:52,746 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:08:57,087 [indexcalculator.py:_get_data_checked:234] 已完成303行US站数据查询,
+
+                共3个品类
+
+                其中有211行有效,
+
+                有效比例为: 30.363%,
+
+                有效cii占比：100.0%,
+
+                有效日期占比：99.01%,
+
+             
+INFO 2021-04-20 18:08:57,114 [indexcalculator.py:get_data_cleaned:285] dropped :1 categories
+INFO 2021-04-20 18:08:57,193 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:08:59,727 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:08:59,824 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:09:04,594 [indexcalculator.py:_get_data_checked:234] 已完成303行US站数据查询,
+
+                共3个品类
+
+                其中有211行有效,
+
+                有效比例为: 30.363%,
+
+                有效cii占比：100.0%,
+
+                有效日期占比：99.01%,
+
+             
+INFO 2021-04-20 18:09:04,618 [indexcalculator.py:get_data_cleaned:285] dropped :1 categories
+INFO 2021-04-20 18:09:04,709 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:09:06,624 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:09:06,716 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:09:11,280 [indexcalculator.py:_get_data_checked:234] 已完成303行US站数据查询,
+
+                共3个品类
+
+                其中有211行有效,
+
+                有效比例为: 30.363%,
+
+                有效cii占比：100.0%,
+
+                有效日期占比：99.01%,
+
+             
+INFO 2021-04-20 18:09:11,312 [indexcalculator.py:get_data_cleaned:285] dropped :1 categories
+INFO 2021-04-20 18:09:11,405 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:09:13,297 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:09:13,410 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:10:01,928 [indexcalculator.py:_get_data_checked:234] 已完成76760行US站数据查询,
+
+                共760个品类
+
+                其中有72372行有效,
+
+                有效比例为: 5.717%,
+
+                有效cii占比：99.5%,
+
+                有效日期占比：98.176%,
+
+             
+INFO 2021-04-20 18:10:02,325 [indexcalculator.py:get_data_cleaned:285] dropped :9 categories
+INFO 2021-04-20 18:10:14,396 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:10:14,409 [indexcalculator.py:get_data_by_id:127] an error occured when calculating indexes
+INFO 2021-04-20 18:11:00,915 [indexcalculator.py:_get_data_checked:234] 已完成76558行US站数据查询,
+
+                共758个品类
+
+                其中有71468行有效,
+
+                有效比例为: 6.649%,
+
+                有效cii占比：99.3%,
+
+                有效日期占比：97.96%,
+
+             
+INFO 2021-04-20 18:11:01,407 [indexcalculator.py:get_data_cleaned:285] dropped :8 categories
+INFO 2021-04-20 18:11:13,614 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:11:15,969 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:11:17,444 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:22:10,032 [indexcalculator.py:_get_data_checked:234] 已完成76558行US站数据查询,
+
+                共758个品类
+
+                其中有71468行有效,
+
+                有效比例为: 6.649%,
+
+                有效cii占比：99.3%,
+
+                有效日期占比：97.96%,
+
+             
+INFO 2021-04-20 18:22:10,552 [indexcalculator.py:get_data_cleaned:285] dropped :8 categories
+INFO 2021-04-20 18:22:24,008 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:22:25,996 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:22:27,412 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:23:44,425 [indexcalculator.py:_get_data_checked:234] 已完成76558行US站数据查询,
+
+                共758个品类
+
+                其中有71468行有效,
+
+                有效比例为: 6.649%,
+
+                有效cii占比：99.3%,
+
+                有效日期占比：97.96%,
+
+             
+INFO 2021-04-20 18:23:44,918 [indexcalculator.py:get_data_cleaned:285] dropped :8 categories
+INFO 2021-04-20 18:23:55,269 [indexcalculator.py:calculate:501] 开始全品类查询与计算
+INFO 2021-04-20 18:23:57,336 [indexcalculator.py:get_indexes:474] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:23:58,747 [indexcalculator.py:get_indexes:485] 计算完成
+INFO 2021-04-20 18:25:49,573 [indexcalculator.py:_get_data_checked:234] 已完成76558行US站数据查询,
+
+                共758个品类
+
+                其中有71468行有效,
+
+                有效比例为: 6.649%,
+
+                有效cii占比：99.3%,
+
+                有效日期占比：97.96%,
+
+             
+INFO 2021-04-20 18:25:50,068 [indexcalculator.py:get_data_cleaned:285] dropped :8 categories
+INFO 2021-04-20 18:26:01,122 [indexcalculator.py:calculate:502] 开始全品类查询与计算
+INFO 2021-04-20 18:26:03,095 [indexcalculator.py:get_indexes:475] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:26:04,731 [indexcalculator.py:get_indexes:486] 计算完成
+INFO 2021-04-20 18:32:23,634 [indexcalculator.py:_get_data_checked:234] 已完成76558行US站数据查询,
+
+                共758个品类
+
+                其中有71468行有效,
+
+                有效比例为: 6.649%,
+
+                有效cii占比：99.3%,
+
+                有效日期占比：97.96%,
+
+             
+INFO 2021-04-20 18:32:24,149 [indexcalculator.py:get_data_cleaned:285] dropped :8 categories
+INFO 2021-04-20 18:32:37,271 [indexcalculator.py:calculate:508] 开始全品类查询与计算
+INFO 2021-04-20 18:32:39,346 [indexcalculator.py:get_indexes:478] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-20 18:32:40,706 [indexcalculator.py:get_indexes:489] 计算完成
+INFO 2021-04-20 18:38:31,780 [indexcalculator.py:calculate:508] 开始全品类查询与计算
+INFO 2021-04-21 14:33:16,674 [indexcalculator.py:get_nrows_data:182] 正在查询299003行04-19日US站数据
+INFO 2021-04-21 14:33:26,508 [indexcalculator.py:get_nrows_data:182] 正在查询2000行04-18日US站数据
+INFO 2021-04-21 14:33:26,684 [indexcalculator.py:get_nrows_data:217] 已完成2000行查询
+INFO 2021-04-21 14:33:26,808 [indexcalculator.py:_get_data_checked:258] 已完成2000行US站数据查询,
+
+                共35个品类
+
+                其中有1504行有效,
+
+                有效比例为: 24.8%,
+
+                有效cii占比：99.7%,
+
+                有效日期占比：99.35%,
+
+             
+INFO 2021-04-21 14:33:26,849 [indexcalculator.py:get_data_cleaned:309] dropped :4 categories
+INFO 2021-04-21 15:09:45,034 [indexcalculator.py:get_nrows_data:182] 正在查询2000行04-18日US站数据
+INFO 2021-04-21 15:09:45,147 [indexcalculator.py:get_nrows_data:217] 已完成2000行查询
+INFO 2021-04-21 15:10:07,784 [indexcalculator.py:_get_data_checked:258] 已完成2000行US站数据查询,
+
+                共35个品类
+
+                其中有1504行有效,
+
+                有效比例为: 24.8%,
+
+                有效cii占比：99.7%,
+
+                有效日期占比：99.35%,
+
+             
+INFO 2021-04-21 15:10:07,826 [indexcalculator.py:get_data_cleaned:309] dropped :4 categories
+INFO 2021-04-21 15:12:47,831 [indexcalculator.py:get_data_fixed:380] 已完成数据填补工作，通过线性回归修补了2行数据,现在开始指数计算
+INFO 2021-04-21 17:15:24,072 [indexcalculator.py:get_nrows_data:182] 正在查询2000行04-18日US站数据
+INFO 2021-04-21 17:15:24,176 [indexcalculator.py:get_nrows_data:217] 已完成2000行查询
+INFO 2021-04-21 17:15:24,230 [indexcalculator.py:_get_data_checked:258] 已完成2000行US站数据查询,
+
+                共35个品类
+
+                其中有1504行有效,
+
+                有效比例为: 24.8%,
+
+                有效cii占比：99.7%,
+
+                有效日期占比：99.35%,
+
+             
+INFO 2021-04-21 17:15:24,339 [indexcalculator.py:get_data_cleaned:309] dropped :4 categories
+INFO 2021-04-21 17:15:29,112 [indexcalculator.py:get_indexes:510] calculating indexes using all_categories_us_2021-04-18
+INFO 2021-04-21 17:15:29,258 [indexcalculator.py:get_indexes:521] 计算完成
+INFO 2021-04-21 17:16:02,541 [indexcalculator.py:calculate:544] 开始全品类查询与计算
